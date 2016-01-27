@@ -2,15 +2,23 @@
 // ----------------------------------------------
 // This recipe defines named app colors 
 
-//# Pallets
-    //## Pallet Color Type Settings
-    $color-types: "primary", "accent", "neutral", "warning", "info", "error", "success";
-    $color--primary:  ~"custom";      // Valid Primary Colors:  Excludes  (White | Black | Alpha)
-    $color--accent:   ~"orange";   // Valid Accent Colors:   Excludes  (Brown | Grey | Blue Grey | White | Black | Alpha)
-    $color--neutral:  ~"grey";     // Valid Neutral Colors:  Only Use  (Brown | Grey | Blue Grey)
+  //## App Color Type Settings
+  $cm-color--primary:  "custom" !default;   // Valid Primary Colors:  Excludes  (White | Black | Alpha)
+  $cm-color--accent:   "orange" !default;   // Valid Accent Colors:   Excludes  (Brown | Grey | Blue Grey | White | Black | Alpha)
+  $cm-color--neutral:  "grey" !default;     // Valid Neutral Colors:  Only Use  (Brown | Grey | Blue Grey)
     
-    // Valid State Colors:    All Colors
-    $color--warning:  "amber";
-    $color--info:     "light-blue";
-    $color--error:    "red";
-    $color--success:  "green";
+  //## Valid State Colors:    All Colors
+  $cm-color--warning:  "amber" !default;
+  $cm-color--info:     "light-blue" !default;
+  $cm-color--error:    "red" !default;
+  $cm-color--success:  "green" !default;
+
+  $cm-colors: (
+    primary: $cm-color--primary, 
+    accent: $cm-color--accent, 
+    neutral: $cm-color--neutral, 
+    warning: $cm-color--warning, 
+    info: $cm-color--info, 
+    error: $cm-color--error, 
+    success: $cm-color--success
+  );

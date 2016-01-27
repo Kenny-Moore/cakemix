@@ -1,20 +1,29 @@
 {
   "name": "cakemix",
-  "description": "Sass libray for app theming",
-  "main": "index.js",
+  "description": "A Sass mixin library for app theming and layout",
+  "main": "core/_cakemix.scss",
+  "version": "0.0.0",
   "authors": [
     "Kenneth Moore"
   ],
   "license": "MIT",
   "homepage": "https://github.com/gooeyideas/cakemix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gooeyideas/cakemix"
+  }
   "moduleType": [],
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
+  ],
+  "keywords": [
+    "css",
+    "mixins",
+    "sass",
+    "scss"
   ],
   "dependencies": {
     "bourbon": "~4.2.6"
