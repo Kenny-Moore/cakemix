@@ -1,0 +1,98 @@
+﻿// cm-group
+// ----------------------------------------------
+// Allow the grouping of elements using flex layout
+// This prevents double borders odd border radius styles when grouped items are next to each other
+//
+// ----------------------------------------------
+// $direction {string}        === 'row' || 'column' represents the flex direction of the group
+// $group {string}            === the selector for the child elements you are grouping
+// $groupChild {string}       === If the @group uses a child element for the border styles you may target it using this param
+// $firstItem {string}        === The selector for first child element
+// $lastItem {string}         === The selector for last child element
+// $hasBorder {boolean}       === Set whether a group item has a border 
+// $hasBorderRadius {boolean} === Set whether a group item has a border radius
+//
+
+@mixin cm-group($direction: row, $group: '*', $groupChild: '', $firstItem: ':first-child', $lastItem: ':last-child', $hasBorder: true, $hasBorderRadius: true) {
+  // Prevent double borders when buttons are next to each other
+  $notFirst: unquote(":not(#{$firstItem})");
+  $notLast: unquote(":not(#{$lastItem})");
+  $direction: unquote($direction);
+  $group: unquote($group);
+  $groupChild: unquote($groupChild);
+  $firstItem: unquote($firstItem);
+  $lastItem: unquote($lastItem);
+
+  @if $hasBorder {
+    & > #{$group}#{$notFirst}#{$groupChild},
+    & > #{$group}#{$notFirst} > & > #{$group}#{$groupChild},
+    & > &#{$notFirst} > #{$group}#{$groupChild} {
+      @if $direction == row {
+        border-left-width: 1px;
+        margin-left: -1px;
+      }
+      @if $direction == column {
+        border-top-width: 1px;
+        margin-top: -1px;
+      }
+    }
+  }
+
+  // Set corners individual because sometimes a single button can be in a .btn-group and we need :first-child and :last-child to both match  
+  @if $hasBorderRadius{
+    & > #{$group}#{$notFirst}#{$notLast}#{$groupChild} {
+      border-radius: 0;
+    }
+
+    & > #{$group}#{$lastItem}#{$notLast}#{$groupChild} {
+      @if $direction == row {
+        @include border-right-radius(0);
+      }
+      @if $direction = column {
+        @include border-bottom-radius(0);
+      }
+    }
+
+    & > #{$group}#{$lastItem}#{$notFirst}#{$groupChild} {
+      @if $direction = row {
+        @include border-left-radius(0);
+      }
+      @if $direction = column {
+        @include border-top-radius(0);
+      }
+    }
+
+    & > &#{$notFirst}#{$notLast} > #{$group}#{$groupChild} {
+      border-radius: 0;
+    }
+
+    & > &#{$lastItem} > #{$group}#{$lastItem}#{$groupChild} {
+      @if $direction = row {
+        @include border-right-radius(0);
+      }
+
+      @if $direction = column {
+        @include border-bottom-radius(0);
+      }
+    }
+
+    & > &#{$lastItem} > #{$group}#{$firstItem}#{$groupChild} {
+      @if $direction = row {
+        @include border-left-radius(0);
+      }
+
+      @if $direction = column {
+        @include border-top-radius(0);
+      }
+    }
+  }
+}
+
+
+.input-group{
+    $flexGrouping: '.ux-flex-item';
+    $flexGroupingChild: ' > *';
+    $firstOfType: ':first-of-type';
+    $lastOfType: ':last-of-type';
+    @include cm-group($group: $flexGrouping, $groupChild: $flexGroupingChild, $firstItem: $firstOfType, $lastItem: $lastOfType);
+} 

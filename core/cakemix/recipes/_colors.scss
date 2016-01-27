@@ -1,0 +1,16 @@
+//# colors
+// ----------------------------------------------
+// This recipe defines named app colors 
+
+//# Pallets
+    //## Pallet Color Type Settings
+    $color-types: "primary", "accent", "neutral", "warning", "info", "error", "success";
+    $color--primary:  ~"custom";      // Valid Primary Colors:  Excludes  (White | Black | Alpha)
+    $color--accent:   ~"orange";   // Valid Accent Colors:   Excludes  (Brown | Grey | Blue Grey | White | Black | Alpha)
+    $color--neutral:  ~"grey";     // Valid Neutral Colors:  Only Use  (Brown | Grey | Blue Grey)
+    
+    // Valid State Colors:    All Colors
+    $color--warning:  "amber";
+    $color--info:     "light-blue";
+    $color--error:    "red";
+    $color--success:  "green";

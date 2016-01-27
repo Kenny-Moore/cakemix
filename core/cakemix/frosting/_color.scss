@@ -393,5 +393,6 @@ $cm-palettes: (
   $color-map: map-get($cm-palettes, $color);
   $type-map: map-get($cm-palette-types, $type);
   $value-mapped: map-get($type-map, $value);
+  $value-mapped: map-get($type-map, $value);
   @return map-get($color-map, $value-mapped);
 }

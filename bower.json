@@ -1,0 +1,22 @@
+{
+  "name": "cakemix",
+  "description": "Sass libray for app theming",
+  "main": "index.js",
+  "authors": [
+    "Kenneth Moore"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gooeyideas/cakemix",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.6"
+  }
+}
