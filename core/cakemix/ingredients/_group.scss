@@ -89,10 +89,10 @@
 }
 
 
-.input-group{
+/*.input-group{
     $flexGrouping: '.ux-flex-item';
     $flexGroupingChild: ' > *';
     $firstOfType: ':first-of-type';
     $lastOfType: ':last-of-type';
     @include cm-group($group: $flexGrouping, $groupChild: $flexGroupingChild, $firstItem: $firstOfType, $lastItem: $lastOfType);
-} 
+}*/

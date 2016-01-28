@@ -2,6 +2,7 @@
 // http://gooeyideas/cakemix.com
 // Copyright 2015-2016 Ungerboeck.com, inc.
 // MIT License
+@import "bourbon";
 
 @import "cakemix/frosting/_color.scss";
 @import "cakemix/frosting/_font.scss";
@@ -9,5 +10,4 @@
 @import "cakemix/ingredients/_group.scss";
 
 @import "cakemix/recipes/_colors.scss";
-
-@import "bourbon";
+@import "cakemix/recipes/_units.scss";
