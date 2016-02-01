@@ -7,11 +7,11 @@
     "Kenneth Moore"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/gooeyideas/cakemix",
+  "homepage": "https://cakemix.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/gooeyideas/cakemix"
-  }
+  },
   "moduleType": [],
   "private": true,
   "ignore": [
