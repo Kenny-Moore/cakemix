@@ -13,7 +13,7 @@
     "url": "https://github.com/gooeyideas/cakemix"
   },
   "moduleType": [],
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
