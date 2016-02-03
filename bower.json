@@ -28,9 +28,7 @@
     "scss"
   ],
   "dependencies": {
-    "bourbon": "~4.2.6"
-  },
-  "devDependencies": {
+    "bourbon": "~4.2.6",
     "mathsass": "~0.9.5"
   }
 }
