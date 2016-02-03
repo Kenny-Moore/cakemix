@@ -1,7 +1,7 @@
 ﻿<link rel="stylesheet" type="text/css" href="./styles.css">
 # Cakemix Color Palette 
 > Using the Cake mix Color function the following Colors are currently generated for each defined color type
-<div class="color-palette">
+<div class="color-palette">  
     <section class="color-group color-group--primary"> 
         <ul>
             <li class="color color--500 color--main">
@@ -21,7 +21,7 @@
             <li class="color color--900"><span class="shade"></span><span class="hex"></span></li>
             <li class="color color--950"><span class="shade"></span><span class="hex"></span></li>
         </ul>
-    </section>
+    </section> 
     <section class="color-group color-group--accent">
         <ul>
             <li class="color color--500 color--main">

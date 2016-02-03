@@ -29,5 +29,8 @@
   ],
   "dependencies": {
     "bourbon": "~4.2.6"
+  },
+  "devDependencies": {
+    "mathsass": "~0.9.5"
   }
 }

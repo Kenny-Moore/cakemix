@@ -3,9 +3,10 @@
 // Copyright 2015-2016 Ungerboeck.com, inc.
 // MIT License
 
-@import '../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/mathsass/dist/math';
 @import "../core/cakemix";
- 
+   
 @each $color-type, $color-name in $cm-colors {
   $color-palette: cm-color($color-name);
   @each $color-shade, $color-value in $color-palette {
