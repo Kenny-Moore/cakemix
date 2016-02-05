@@ -13,20 +13,20 @@
     .color-group--#{$color-type} .color--#{$color-shade} {
         background: $color-value;
         .shade{
-          color: color-contrast($color-value);
+          color: cm-contrast($color-value);
           &:before{
             content: quote($color-shade);
           }
         }
         .hex{ 
-          color: color-contrast($color-value);         
+          color: cm-contrast($color-value);         
           &:before{
             content: quote($color-value);
           }
         }
         .name{    
           text-transform: uppercase;
-          color: color-contrast($color-value);      
+          color: cm-contrast($color-value);      
           &:before{
             content: quote($color-type + " | " + $color-name);
           }

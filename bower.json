@@ -19,7 +19,11 @@
     "node_modules",
     "fonts",
     "logo",
-    "bower_components"
+    "bower_components",
+    "docs/styles.scss",
+    "Gulpfile.js",
+    "compilerconfig.json",
+    "compilerconfig.json.defaults"
   ],
   "keywords": [
     "css",

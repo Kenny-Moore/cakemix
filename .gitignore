@@ -1,5 +1,6 @@
 # Dependency directory
 node_modules
+bower_components
 compilerconfig.json
 compilerconfig.json.defaults
 cakemix.sln
