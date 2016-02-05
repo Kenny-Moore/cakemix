@@ -20,7 +20,6 @@
     "fonts",
     "logo",
     "bower_components",
-    "docs/styles.scss",
     "Gulpfile.js",
     "compilerconfig.json",
     "compilerconfig.json.defaults"
