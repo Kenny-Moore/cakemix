@@ -357,72 +357,8 @@
     .color-group--accent .color--950 .name:before {
       content: "accent | orange"; }
 
-.color-group--accent .color--A100 {
-  background: #FFD180; }
-  .color-group--accent .color--A100 .shade {
-    color: #000000; }
-    .color-group--accent .color--A100 .shade:before {
-      content: "A100"; }
-  .color-group--accent .color--A100 .hex {
-    color: #000000; }
-    .color-group--accent .color--A100 .hex:before {
-      content: "#FFD180"; }
-  .color-group--accent .color--A100 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--accent .color--A100 .name:before {
-      content: "accent | orange"; }
-
-.color-group--accent .color--A200 {
-  background: #FFAB40; }
-  .color-group--accent .color--A200 .shade {
-    color: #000000; }
-    .color-group--accent .color--A200 .shade:before {
-      content: "A200"; }
-  .color-group--accent .color--A200 .hex {
-    color: #000000; }
-    .color-group--accent .color--A200 .hex:before {
-      content: "#FFAB40"; }
-  .color-group--accent .color--A200 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--accent .color--A200 .name:before {
-      content: "accent | orange"; }
-
-.color-group--accent .color--A400 {
-  background: #FF9100; }
-  .color-group--accent .color--A400 .shade {
-    color: #000000; }
-    .color-group--accent .color--A400 .shade:before {
-      content: "A400"; }
-  .color-group--accent .color--A400 .hex {
-    color: #000000; }
-    .color-group--accent .color--A400 .hex:before {
-      content: "#FF9100"; }
-  .color-group--accent .color--A400 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--accent .color--A400 .name:before {
-      content: "accent | orange"; }
-
-.color-group--accent .color--A700 {
-  background: #FF6D00; }
-  .color-group--accent .color--A700 .shade {
-    color: #000000; }
-    .color-group--accent .color--A700 .shade:before {
-      content: "A700"; }
-  .color-group--accent .color--A700 .hex {
-    color: #000000; }
-    .color-group--accent .color--A700 .hex:before {
-      content: "#FF6D00"; }
-  .color-group--accent .color--A700 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--accent .color--A700 .name:before {
-      content: "accent | orange"; }
-
 .color-group--neutral .color--50 {
-  background: #FAFAFA; }
+  background: #FEFEFE; }
   .color-group--neutral .color--50 .shade {
     color: #000000; }
     .color-group--neutral .color--50 .shade:before {
@@ -430,7 +366,7 @@
   .color-group--neutral .color--50 .hex {
     color: #000000; }
     .color-group--neutral .color--50 .hex:before {
-      content: "#FAFAFA"; }
+      content: "#FEFEFE"; }
   .color-group--neutral .color--50 .name {
     text-transform: uppercase;
     color: #000000; }
@@ -438,7 +374,7 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--100 {
-  background: #F5F5F5; }
+  background: #FAFAFA; }
   .color-group--neutral .color--100 .shade {
     color: #000000; }
     .color-group--neutral .color--100 .shade:before {
@@ -446,7 +382,7 @@
   .color-group--neutral .color--100 .hex {
     color: #000000; }
     .color-group--neutral .color--100 .hex:before {
-      content: "#F5F5F5"; }
+      content: "#FAFAFA"; }
   .color-group--neutral .color--100 .name {
     text-transform: uppercase;
     color: #000000; }
@@ -454,7 +390,7 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--200 {
-  background: #EEEEEE; }
+  background: #F5F5F5; }
   .color-group--neutral .color--200 .shade {
     color: #000000; }
     .color-group--neutral .color--200 .shade:before {
@@ -462,7 +398,7 @@
   .color-group--neutral .color--200 .hex {
     color: #000000; }
     .color-group--neutral .color--200 .hex:before {
-      content: "#EEEEEE"; }
+      content: "#F5F5F5"; }
   .color-group--neutral .color--200 .name {
     text-transform: uppercase;
     color: #000000; }
@@ -470,7 +406,7 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--300 {
-  background: #E0E0E0; }
+  background: #EEEEEE; }
   .color-group--neutral .color--300 .shade {
     color: #000000; }
     .color-group--neutral .color--300 .shade:before {
@@ -478,7 +414,7 @@
   .color-group--neutral .color--300 .hex {
     color: #000000; }
     .color-group--neutral .color--300 .hex:before {
-      content: "#E0E0E0"; }
+      content: "#EEEEEE"; }
   .color-group--neutral .color--300 .name {
     text-transform: uppercase;
     color: #000000; }
@@ -486,7 +422,7 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--400 {
-  background: #BDBDBD; }
+  background: #E4E4E4; }
   .color-group--neutral .color--400 .shade {
     color: #000000; }
     .color-group--neutral .color--400 .shade:before {
@@ -494,7 +430,7 @@
   .color-group--neutral .color--400 .hex {
     color: #000000; }
     .color-group--neutral .color--400 .hex:before {
-      content: "#BDBDBD"; }
+      content: "#E4E4E4"; }
   .color-group--neutral .color--400 .name {
     text-transform: uppercase;
     color: #000000; }
@@ -502,7 +438,7 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--500 {
-  background: #9E9E9E; }
+  background: #D1D1D1; }
   .color-group--neutral .color--500 .shade {
     color: #000000; }
     .color-group--neutral .color--500 .shade:before {
@@ -510,7 +446,7 @@
   .color-group--neutral .color--500 .hex {
     color: #000000; }
     .color-group--neutral .color--500 .hex:before {
-      content: "#9E9E9E"; }
+      content: "#D1D1D1"; }
   .color-group--neutral .color--500 .name {
     text-transform: uppercase;
     color: #000000; }
@@ -518,39 +454,39 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--600 {
-  background: #757575; }
+  background: #BDBDBD; }
   .color-group--neutral .color--600 .shade {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--600 .shade:before {
       content: "600"; }
   .color-group--neutral .color--600 .hex {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--600 .hex:before {
-      content: "#757575"; }
+      content: "#BDBDBD"; }
   .color-group--neutral .color--600 .name {
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--600 .name:before {
       content: "neutral | grey"; }
 
 .color-group--neutral .color--700 {
-  background: #616161; }
+  background: #9A9A9A; }
   .color-group--neutral .color--700 .shade {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--700 .shade:before {
       content: "700"; }
   .color-group--neutral .color--700 .hex {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--700 .hex:before {
-      content: "#616161"; }
+      content: "#9A9A9A"; }
   .color-group--neutral .color--700 .name {
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--700 .name:before {
       content: "neutral | grey"; }
 
 .color-group--neutral .color--800 {
-  background: #424242; }
+  background: #616161; }
   .color-group--neutral .color--800 .shade {
     color: #ffffff; }
     .color-group--neutral .color--800 .shade:before {
@@ -558,7 +494,7 @@
   .color-group--neutral .color--800 .hex {
     color: #ffffff; }
     .color-group--neutral .color--800 .hex:before {
-      content: "#424242"; }
+      content: "#616161"; }
   .color-group--neutral .color--800 .name {
     text-transform: uppercase;
     color: #ffffff; }
@@ -566,7 +502,7 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--900 {
-  background: #212121; }
+  background: #424242; }
   .color-group--neutral .color--900 .shade {
     color: #ffffff; }
     .color-group--neutral .color--900 .shade:before {
@@ -574,7 +510,7 @@
   .color-group--neutral .color--900 .hex {
     color: #ffffff; }
     .color-group--neutral .color--900 .hex:before {
-      content: "#212121"; }
+      content: "#424242"; }
   .color-group--neutral .color--900 .name {
     text-transform: uppercase;
     color: #ffffff; }
@@ -582,7 +518,7 @@
       content: "neutral | grey"; }
 
 .color-group--neutral .color--950 {
-  background: #121212; }
+  background: #212121; }
   .color-group--neutral .color--950 .shade {
     color: #ffffff; }
     .color-group--neutral .color--950 .shade:before {
@@ -590,75 +526,11 @@
   .color-group--neutral .color--950 .hex {
     color: #ffffff; }
     .color-group--neutral .color--950 .hex:before {
-      content: "#121212"; }
+      content: "#212121"; }
   .color-group--neutral .color--950 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--neutral .color--950 .name:before {
-      content: "neutral | grey"; }
-
-.color-group--neutral .color--N50 {
-  background: #FEFEFE; }
-  .color-group--neutral .color--N50 .shade {
-    color: #000000; }
-    .color-group--neutral .color--N50 .shade:before {
-      content: "N50"; }
-  .color-group--neutral .color--N50 .hex {
-    color: #000000; }
-    .color-group--neutral .color--N50 .hex:before {
-      content: "#FEFEFE"; }
-  .color-group--neutral .color--N50 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--neutral .color--N50 .name:before {
-      content: "neutral | grey"; }
-
-.color-group--neutral .color--N300 {
-  background: #E4E4E4; }
-  .color-group--neutral .color--N300 .shade {
-    color: #000000; }
-    .color-group--neutral .color--N300 .shade:before {
-      content: "N300"; }
-  .color-group--neutral .color--N300 .hex {
-    color: #000000; }
-    .color-group--neutral .color--N300 .hex:before {
-      content: "#E4E4E4"; }
-  .color-group--neutral .color--N300 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--neutral .color--N300 .name:before {
-      content: "neutral | grey"; }
-
-.color-group--neutral .color--N400 {
-  background: #D1D1D1; }
-  .color-group--neutral .color--N400 .shade {
-    color: #000000; }
-    .color-group--neutral .color--N400 .shade:before {
-      content: "N400"; }
-  .color-group--neutral .color--N400 .hex {
-    color: #000000; }
-    .color-group--neutral .color--N400 .hex:before {
-      content: "#D1D1D1"; }
-  .color-group--neutral .color--N400 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--neutral .color--N400 .name:before {
-      content: "neutral | grey"; }
-
-.color-group--neutral .color--N600 {
-  background: #9A9A9A; }
-  .color-group--neutral .color--N600 .shade {
-    color: #000000; }
-    .color-group--neutral .color--N600 .shade:before {
-      content: "N600"; }
-  .color-group--neutral .color--N600 .hex {
-    color: #000000; }
-    .color-group--neutral .color--N600 .hex:before {
-      content: "#9A9A9A"; }
-  .color-group--neutral .color--N600 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--neutral .color--N600 .name:before {
       content: "neutral | grey"; }
 
 .color-group--warning .color--50 {
@@ -837,70 +709,6 @@
     .color-group--warning .color--950 .name:before {
       content: "warning | amber"; }
 
-.color-group--warning .color--A100 {
-  background: #FFE57F; }
-  .color-group--warning .color--A100 .shade {
-    color: #000000; }
-    .color-group--warning .color--A100 .shade:before {
-      content: "A100"; }
-  .color-group--warning .color--A100 .hex {
-    color: #000000; }
-    .color-group--warning .color--A100 .hex:before {
-      content: "#FFE57F"; }
-  .color-group--warning .color--A100 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--warning .color--A100 .name:before {
-      content: "warning | amber"; }
-
-.color-group--warning .color--A200 {
-  background: #FFD740; }
-  .color-group--warning .color--A200 .shade {
-    color: #000000; }
-    .color-group--warning .color--A200 .shade:before {
-      content: "A200"; }
-  .color-group--warning .color--A200 .hex {
-    color: #000000; }
-    .color-group--warning .color--A200 .hex:before {
-      content: "#FFD740"; }
-  .color-group--warning .color--A200 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--warning .color--A200 .name:before {
-      content: "warning | amber"; }
-
-.color-group--warning .color--A400 {
-  background: #FFC400; }
-  .color-group--warning .color--A400 .shade {
-    color: #000000; }
-    .color-group--warning .color--A400 .shade:before {
-      content: "A400"; }
-  .color-group--warning .color--A400 .hex {
-    color: #000000; }
-    .color-group--warning .color--A400 .hex:before {
-      content: "#FFC400"; }
-  .color-group--warning .color--A400 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--warning .color--A400 .name:before {
-      content: "warning | amber"; }
-
-.color-group--warning .color--A700 {
-  background: #FFAB00; }
-  .color-group--warning .color--A700 .shade {
-    color: #000000; }
-    .color-group--warning .color--A700 .shade:before {
-      content: "A700"; }
-  .color-group--warning .color--A700 .hex {
-    color: #000000; }
-    .color-group--warning .color--A700 .hex:before {
-      content: "#FFAB00"; }
-  .color-group--warning .color--A700 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--warning .color--A700 .name:before {
-      content: "warning | amber"; }
-
 .color-group--info .color--50 {
   background: #E1F5FE; }
   .color-group--info .color--50 .shade {
@@ -1075,70 +883,6 @@
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--info .color--950 .name:before {
-      content: "info | light-blue"; }
-
-.color-group--info .color--A100 {
-  background: #80D8FF; }
-  .color-group--info .color--A100 .shade {
-    color: #000000; }
-    .color-group--info .color--A100 .shade:before {
-      content: "A100"; }
-  .color-group--info .color--A100 .hex {
-    color: #000000; }
-    .color-group--info .color--A100 .hex:before {
-      content: "#80D8FF"; }
-  .color-group--info .color--A100 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--info .color--A100 .name:before {
-      content: "info | light-blue"; }
-
-.color-group--info .color--A200 {
-  background: #40C4FF; }
-  .color-group--info .color--A200 .shade {
-    color: #000000; }
-    .color-group--info .color--A200 .shade:before {
-      content: "A200"; }
-  .color-group--info .color--A200 .hex {
-    color: #000000; }
-    .color-group--info .color--A200 .hex:before {
-      content: "#40C4FF"; }
-  .color-group--info .color--A200 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--info .color--A200 .name:before {
-      content: "info | light-blue"; }
-
-.color-group--info .color--A400 {
-  background: #00B0FF; }
-  .color-group--info .color--A400 .shade {
-    color: #000000; }
-    .color-group--info .color--A400 .shade:before {
-      content: "A400"; }
-  .color-group--info .color--A400 .hex {
-    color: #000000; }
-    .color-group--info .color--A400 .hex:before {
-      content: "#00B0FF"; }
-  .color-group--info .color--A400 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--info .color--A400 .name:before {
-      content: "info | light-blue"; }
-
-.color-group--info .color--A700 {
-  background: #0091EA; }
-  .color-group--info .color--A700 .shade {
-    color: #000000; }
-    .color-group--info .color--A700 .shade:before {
-      content: "A700"; }
-  .color-group--info .color--A700 .hex {
-    color: #000000; }
-    .color-group--info .color--A700 .hex:before {
-      content: "#0091EA"; }
-  .color-group--info .color--A700 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--info .color--A700 .name:before {
       content: "info | light-blue"; }
 
 .color-group--error .color--50 {
@@ -1317,70 +1061,6 @@
     .color-group--error .color--950 .name:before {
       content: "error | red"; }
 
-.color-group--error .color--A100 {
-  background: #FF8A80; }
-  .color-group--error .color--A100 .shade {
-    color: #000000; }
-    .color-group--error .color--A100 .shade:before {
-      content: "A100"; }
-  .color-group--error .color--A100 .hex {
-    color: #000000; }
-    .color-group--error .color--A100 .hex:before {
-      content: "#FF8A80"; }
-  .color-group--error .color--A100 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--error .color--A100 .name:before {
-      content: "error | red"; }
-
-.color-group--error .color--A200 {
-  background: #FF5252; }
-  .color-group--error .color--A200 .shade {
-    color: #000000; }
-    .color-group--error .color--A200 .shade:before {
-      content: "A200"; }
-  .color-group--error .color--A200 .hex {
-    color: #000000; }
-    .color-group--error .color--A200 .hex:before {
-      content: "#FF5252"; }
-  .color-group--error .color--A200 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--error .color--A200 .name:before {
-      content: "error | red"; }
-
-.color-group--error .color--A400 {
-  background: #FF1744; }
-  .color-group--error .color--A400 .shade {
-    color: #000000; }
-    .color-group--error .color--A400 .shade:before {
-      content: "A400"; }
-  .color-group--error .color--A400 .hex {
-    color: #000000; }
-    .color-group--error .color--A400 .hex:before {
-      content: "#FF1744"; }
-  .color-group--error .color--A400 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--error .color--A400 .name:before {
-      content: "error | red"; }
-
-.color-group--error .color--A700 {
-  background: #D50000; }
-  .color-group--error .color--A700 .shade {
-    color: #ffffff; }
-    .color-group--error .color--A700 .shade:before {
-      content: "A700"; }
-  .color-group--error .color--A700 .hex {
-    color: #ffffff; }
-    .color-group--error .color--A700 .hex:before {
-      content: "#D50000"; }
-  .color-group--error .color--A700 .name {
-    text-transform: uppercase;
-    color: #ffffff; }
-    .color-group--error .color--A700 .name:before {
-      content: "error | red"; }
-
 .color-group--success .color--50 {
   background: #E8F5E9; }
   .color-group--success .color--50 .shade {
@@ -1555,70 +1235,6 @@
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--success .color--950 .name:before {
-      content: "success | green"; }
-
-.color-group--success .color--A100 {
-  background: #B9F6CA; }
-  .color-group--success .color--A100 .shade {
-    color: #000000; }
-    .color-group--success .color--A100 .shade:before {
-      content: "A100"; }
-  .color-group--success .color--A100 .hex {
-    color: #000000; }
-    .color-group--success .color--A100 .hex:before {
-      content: "#B9F6CA"; }
-  .color-group--success .color--A100 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--success .color--A100 .name:before {
-      content: "success | green"; }
-
-.color-group--success .color--A200 {
-  background: #69F0AE; }
-  .color-group--success .color--A200 .shade {
-    color: #000000; }
-    .color-group--success .color--A200 .shade:before {
-      content: "A200"; }
-  .color-group--success .color--A200 .hex {
-    color: #000000; }
-    .color-group--success .color--A200 .hex:before {
-      content: "#69F0AE"; }
-  .color-group--success .color--A200 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--success .color--A200 .name:before {
-      content: "success | green"; }
-
-.color-group--success .color--A400 {
-  background: #00E676; }
-  .color-group--success .color--A400 .shade {
-    color: #000000; }
-    .color-group--success .color--A400 .shade:before {
-      content: "A400"; }
-  .color-group--success .color--A400 .hex {
-    color: #000000; }
-    .color-group--success .color--A400 .hex:before {
-      content: "#00E676"; }
-  .color-group--success .color--A400 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--success .color--A400 .name:before {
-      content: "success | green"; }
-
-.color-group--success .color--A700 {
-  background: #00C853; }
-  .color-group--success .color--A700 .shade {
-    color: #000000; }
-    .color-group--success .color--A700 .shade:before {
-      content: "A700"; }
-  .color-group--success .color--A700 .hex {
-    color: #000000; }
-    .color-group--success .color--A700 .hex:before {
-      content: "#00C853"; }
-  .color-group--success .color--A700 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--success .color--A700 .name:before {
       content: "success | green"; }
 
 .color {
@@ -1853,4 +1469,9 @@ pre code:before, pre code:after {
 body {
   margin: auto;
   width: 1160px; }
+
+.test-theme {
+  background-color: #2196F3;
+  color: #000000;
+  border: 1px solid #0D47A1; }
 

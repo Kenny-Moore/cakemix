@@ -14,11 +14,12 @@
   $cm-color--success:  "green" !default;
    
   $cm-colors: (
-    primary: $cm-color--primary, 
-    accent: $cm-color--accent, 
-    neutral: $cm-color--neutral, 
-    warning: $cm-color--warning, 
-    info: $cm-color--info, 
-    error: $cm-color--error, 
-    success: $cm-color--success
+    'primary': $cm-color--primary, 
+    'accent': $cm-color--accent, 
+    'neutral': $cm-color--neutral, 
+    'warning': $cm-color--warning, 
+    'info': $cm-color--info, 
+    'error': $cm-color--error, 
+    'success': $cm-color--success
   );
+

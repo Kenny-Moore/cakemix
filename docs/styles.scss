@@ -3,36 +3,47 @@
 // Copyright 2015-2016 Ungerboeck.com, inc.
 // MIT License
 
+/// <reference path="../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss" />
+/// <reference path="../bower_components/mathsass/dist/_math.scss" />
+/// <reference path="../core/_cakemix.scss" />
+
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/mathsass/dist/math';
 @import "../core/cakemix"; 
-   
+
 @each $color-type, $color-name in $cm-colors {
-  $color-palette: cm-color($color-name);
-  @each $color-shade, $color-value in $color-palette {
-    .color-group--#{$color-type} .color--#{$color-shade} {
-        background: $color-value;
-        .shade{
-          color: cm-contrast($color-value);
-          &:before{
-            content: quote($color-shade);
-          }
-        }
-        .hex{ 
-          color: cm-contrast($color-value);         
-          &:before{
-            content: quote($color-value);
-          }
-        }
-        .name{    
-          text-transform: uppercase;
-          color: cm-contrast($color-value);      
-          &:before{
-            content: quote($color-type + " | " + $color-name);
-          }
-        }
-    }
+  $color-map-type: 'default';
+  
+  @if ($color-type == 'accent') or ($color-type == 'neutral'){
+    $color-map-type: $color-type;
   }
+
+  @include cm-color-context($color-name, $color-map-type){
+      @each $color-shade, $color-value in $color-palette {
+        .color-group--#{$color-type} .color--#{$color-shade} {
+            background: $color-value;
+            .shade{
+              color: cm-contrast($color-value);
+              &:before{
+                content: quote($color-shade);
+              }
+            }
+            .hex{ 
+              color: cm-contrast($color-value);         
+              &:before{
+                content: quote($color-value);
+              }
+            }
+            .name{    
+              text-transform: uppercase;
+              color: cm-contrast($color-value);      
+              &:before{
+                content: quote($color-type + " | " + $color-name);
+              }
+            }
+        }
+      }
+  }  
 }
 .color {
    padding: 15px;
@@ -310,4 +321,13 @@ pre {
 body{
     margin: auto;
     width: 1160px;    
+}
+$theme-color:'blue';
+
+@include cm-color-context($theme-color){
+  .test-theme{
+    background-color: $color-500;
+    color: cm-contrast($color-500);
+    border: 1px solid $color-900;
+  }
 }
