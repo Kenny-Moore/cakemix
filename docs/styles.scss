@@ -18,7 +18,7 @@
     $color-map-type: $color-type;
   }
 
-  @include cm-color-context($color-name, $color-map-type){
+  @include cm-color($color-name, $color-map-type){
       @each $color-shade, $color-value in $color-palette {
         .color-group--#{$color-type} .color--#{$color-shade} {
             background: $color-value;
@@ -321,13 +321,4 @@ pre {
 body{
     margin: auto;
     width: 1160px;    
-}
-$theme-color:'blue';
-
-@include cm-color-context($theme-color){
-  .test-theme{
-    background-color: $color-500;
-    color: cm-contrast($color-500);
-    border: 1px solid $color-900;
-  }
 }
