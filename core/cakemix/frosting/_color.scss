@@ -413,30 +413,32 @@ $cm-palettes: (
     $color-shade: map-get($color-shades, $color-shade); //Return shade by color type
     @return map-get($palette, $color-shade);
   } @else {
-  $color-50: map-get($palette, map-get($color-shades, '50'));
-  $color-100: map-get($palette, map-get($color-shades, '100'));
-  $color-200: map-get($palette, map-get($color-shades, '200'));
-  $color-300: map-get($palette, map-get($color-shades, '300'));
-  $color-400: map-get($palette, map-get($color-shades, '400'));
-  $color-500: map-get($palette, map-get($color-shades, '500'));
-  $color-600: map-get($palette, map-get($color-shades, '600'));
-  $color-700: map-get($palette, map-get($color-shades, '700'));
-  $color-800: map-get($palette, map-get($color-shades, '800'));
-  $color-900: map-get($palette, map-get($color-shades, '900'));
-  $color-950: map-get($palette, map-get($color-shades, '950'));
-  $color-palette:(
-    '50':  $color-50,
-    '100': $color-100,
-    '200': $color-200,
-    '300': $color-300,
-    '400': $color-400,
-    '500': $color-500,
-    '600': $color-600,
-    '700': $color-700,
-    '800': $color-800,
-    '900': $color-900,
-    '950': $color-950
-    );
+  @if $color-type != 'default' {
+    $color-50: map-get($palette, map-get($color-shades, '50'));
+    $color-100: map-get($palette, map-get($color-shades, '100'));
+    $color-200: map-get($palette, map-get($color-shades, '200'));
+    $color-300: map-get($palette, map-get($color-shades, '300'));
+    $color-400: map-get($palette, map-get($color-shades, '400'));
+    $color-500: map-get($palette, map-get($color-shades, '500'));
+    $color-600: map-get($palette, map-get($color-shades, '600'));
+    $color-700: map-get($palette, map-get($color-shades, '700'));
+    $color-800: map-get($palette, map-get($color-shades, '800'));
+    $color-900: map-get($palette, map-get($color-shades, '900'));
+    $color-950: map-get($palette, map-get($color-shades, '950'));
+    $color-palette:(
+      '50':  $color-50,
+      '100': $color-100,
+      '200': $color-200,
+      '300': $color-300,
+      '400': $color-400,
+      '500': $color-500,
+      '600': $color-600,
+      '700': $color-700,
+      '800': $color-800,
+      '900': $color-900,
+      '950': $color-950
+      );
+    }
     @return $color-palette;
   }
 }

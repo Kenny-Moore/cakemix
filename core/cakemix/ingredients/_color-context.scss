@@ -15,9 +15,6 @@ $color-palette: null !default;
 
 @mixin cm-color-context($color-name, $color-type: 'default') {
   $scope-palette: $color-palette;
-  $palette: cm-color($color-name);
-  $color-shades: map-get($cm-palette-types, $color-type);
-
   $scope-50: $color-50;
   $scope-100: $color-100;
   $scope-200: $color-200;
@@ -29,30 +26,19 @@ $color-palette: null !default;
   $scope-800: $color-800;
   $scope-900: $color-900;
   $scope-950: $color-950;
-  $color-50: map-get($palette, map-get($color-shades, '50')) !global;
-  $color-100: map-get($palette, map-get($color-shades, '100')) !global;
-  $color-200: map-get($palette, map-get($color-shades, '200')) !global;
-  $color-300: map-get($palette, map-get($color-shades, '300')) !global;
-  $color-400: map-get($palette, map-get($color-shades, '400')) !global;
-  $color-500: map-get($palette, map-get($color-shades, '500')) !global;
-  $color-600: map-get($palette, map-get($color-shades, '600')) !global;
-  $color-700: map-get($palette, map-get($color-shades, '700')) !global;
-  $color-800: map-get($palette, map-get($color-shades, '800')) !global;
-  $color-900: map-get($palette, map-get($color-shades, '900')) !global;
-  $color-950: map-get($palette, map-get($color-shades, '950')) !global;
-  $color-palette:(
-    '50':  $color-50,
-    '100': $color-100,
-    '200': $color-200,
-    '300': $color-300,
-    '400': $color-400,
-    '500': $color-500,
-    '600': $color-600,
-    '700': $color-700,
-    '800': $color-800,
-    '900': $color-900,
-    '950': $color-950
-    ) !global;
+
+  $color-palette: cm-color($color-name, null, $color-type) !global;
+  $color-50:  map-get($color-palette, '50') !global;
+  $color-100: map-get($color-palette, '100') !global;
+  $color-200: map-get($color-palette, '200') !global;
+  $color-300: map-get($color-palette, '300') !global;
+  $color-400: map-get($color-palette, '400') !global;
+  $color-500: map-get($color-palette, '500') !global;
+  $color-600: map-get($color-palette, '600') !global;
+  $color-700: map-get($color-palette, '700') !global;
+  $color-800: map-get($color-palette, '800') !global;
+  $color-900: map-get($color-palette, '900') !global;
+  $color-950: map-get($color-palette, '950') !global;
 
   @content;
 
