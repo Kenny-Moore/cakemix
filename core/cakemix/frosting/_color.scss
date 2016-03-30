@@ -464,12 +464,13 @@ $cm-palettes: (
   //get the target palette
   //get list of palette keys
   $keys: map-keys($color-shades);
+  $values: map-values($color-shades);
   //keep track of our current shade
   $index: index($keys, $shade);
 
  @while $distance != 0 {   
    @if map_has_key($color-shades, nth($keys, $index + $distance)) {
-    $shade: nth($keys, $index + $distance);
+    $shade: nth($values, $index + $distance);
     @return $shade;
     $distance: 0;
    }
