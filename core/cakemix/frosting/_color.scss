@@ -459,30 +459,32 @@ $cm-palettes: (
   }
 }
 
-@function cm-shade($color-shade, $color-type: 'default', $distance: 0) {  
-  $color-shades: map-get($cm-palette-types, $color-type); // To offset for neutral & accent colors
-  //get the target palette
-  //get list of palette keys
-  $keys: map-keys($color-shades);
-  $values: map-values($color-shades);
-  //keep track of our current shade
-  $index: index($keys, $color-shade);
-  $shade: nth($values, $index + $distance);
-
- @while $distance != 0 {   
-   @if map_has_key($color-shades, nth($keys, $index + $distance)) {
+@function cm-shade($color-shade, $color-type: 'default', $distance: 0) {
+  @if($color-shade != null){
+    $color-shades: map-get($cm-palette-types, $color-type); // To offset for neutral & accent colors
+    //get the target palette
+    //get list of palette keys
+    $keys: map-keys($color-shades);
+    $values: map-values($color-shades);
+    //keep track of our current shade
+    $index: index($keys, $color-shade);
     $shade: nth($values, $index + $distance);
-    $distance: 0;
-   }
-   @else {
-     @if $distance > 0 {
-       $distance: $distance - 1;
+
+   @while $distance != 0 {   
+     @if map_has_key($color-shades, nth($keys, $index + $distance)) {
+      $shade: nth($values, $index + $distance);
+      $distance: 0;
      }
      @else {
-       $distance: $distance + 1;
+       @if $distance > 0 {
+         $distance: $distance - 1;
+       }
+       @else {
+         $distance: $distance + 1;
+       }
      }
-   }
     
-  }
+    }
+  } 
   @return $shade
 }
