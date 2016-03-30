@@ -709,6 +709,70 @@
     .color-group--warning .color--950 .name:before {
       content: "warning | amber"; }
 
+.color-group--warning .color--A100 {
+  background: #FFE57F; }
+  .color-group--warning .color--A100 .shade {
+    color: #000000; }
+    .color-group--warning .color--A100 .shade:before {
+      content: "A100"; }
+  .color-group--warning .color--A100 .hex {
+    color: #000000; }
+    .color-group--warning .color--A100 .hex:before {
+      content: "#FFE57F"; }
+  .color-group--warning .color--A100 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--warning .color--A100 .name:before {
+      content: "warning | amber"; }
+
+.color-group--warning .color--A200 {
+  background: #FFD740; }
+  .color-group--warning .color--A200 .shade {
+    color: #000000; }
+    .color-group--warning .color--A200 .shade:before {
+      content: "A200"; }
+  .color-group--warning .color--A200 .hex {
+    color: #000000; }
+    .color-group--warning .color--A200 .hex:before {
+      content: "#FFD740"; }
+  .color-group--warning .color--A200 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--warning .color--A200 .name:before {
+      content: "warning | amber"; }
+
+.color-group--warning .color--A400 {
+  background: #FFC400; }
+  .color-group--warning .color--A400 .shade {
+    color: #000000; }
+    .color-group--warning .color--A400 .shade:before {
+      content: "A400"; }
+  .color-group--warning .color--A400 .hex {
+    color: #000000; }
+    .color-group--warning .color--A400 .hex:before {
+      content: "#FFC400"; }
+  .color-group--warning .color--A400 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--warning .color--A400 .name:before {
+      content: "warning | amber"; }
+
+.color-group--warning .color--A700 {
+  background: #FFAB00; }
+  .color-group--warning .color--A700 .shade {
+    color: #000000; }
+    .color-group--warning .color--A700 .shade:before {
+      content: "A700"; }
+  .color-group--warning .color--A700 .hex {
+    color: #000000; }
+    .color-group--warning .color--A700 .hex:before {
+      content: "#FFAB00"; }
+  .color-group--warning .color--A700 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--warning .color--A700 .name:before {
+      content: "warning | amber"; }
+
 .color-group--info .color--50 {
   background: #E1F5FE; }
   .color-group--info .color--50 .shade {
@@ -883,6 +947,70 @@
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--info .color--950 .name:before {
+      content: "info | light-blue"; }
+
+.color-group--info .color--A100 {
+  background: #80D8FF; }
+  .color-group--info .color--A100 .shade {
+    color: #000000; }
+    .color-group--info .color--A100 .shade:before {
+      content: "A100"; }
+  .color-group--info .color--A100 .hex {
+    color: #000000; }
+    .color-group--info .color--A100 .hex:before {
+      content: "#80D8FF"; }
+  .color-group--info .color--A100 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--info .color--A100 .name:before {
+      content: "info | light-blue"; }
+
+.color-group--info .color--A200 {
+  background: #40C4FF; }
+  .color-group--info .color--A200 .shade {
+    color: #000000; }
+    .color-group--info .color--A200 .shade:before {
+      content: "A200"; }
+  .color-group--info .color--A200 .hex {
+    color: #000000; }
+    .color-group--info .color--A200 .hex:before {
+      content: "#40C4FF"; }
+  .color-group--info .color--A200 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--info .color--A200 .name:before {
+      content: "info | light-blue"; }
+
+.color-group--info .color--A400 {
+  background: #00B0FF; }
+  .color-group--info .color--A400 .shade {
+    color: #000000; }
+    .color-group--info .color--A400 .shade:before {
+      content: "A400"; }
+  .color-group--info .color--A400 .hex {
+    color: #000000; }
+    .color-group--info .color--A400 .hex:before {
+      content: "#00B0FF"; }
+  .color-group--info .color--A400 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--info .color--A400 .name:before {
+      content: "info | light-blue"; }
+
+.color-group--info .color--A700 {
+  background: #0091EA; }
+  .color-group--info .color--A700 .shade {
+    color: #000000; }
+    .color-group--info .color--A700 .shade:before {
+      content: "A700"; }
+  .color-group--info .color--A700 .hex {
+    color: #000000; }
+    .color-group--info .color--A700 .hex:before {
+      content: "#0091EA"; }
+  .color-group--info .color--A700 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--info .color--A700 .name:before {
       content: "info | light-blue"; }
 
 .color-group--error .color--50 {
@@ -1061,6 +1189,102 @@
     .color-group--error .color--950 .name:before {
       content: "error | red"; }
 
+.color-group--error .color--A50 {
+  background: #FFACA9; }
+  .color-group--error .color--A50 .shade {
+    color: #000000; }
+    .color-group--error .color--A50 .shade:before {
+      content: "A50"; }
+  .color-group--error .color--A50 .hex {
+    color: #000000; }
+    .color-group--error .color--A50 .hex:before {
+      content: "#FFACA9"; }
+  .color-group--error .color--A50 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--error .color--A50 .name:before {
+      content: "error | red"; }
+
+.color-group--error .color--A100 {
+  background: #FF8A80; }
+  .color-group--error .color--A100 .shade {
+    color: #000000; }
+    .color-group--error .color--A100 .shade:before {
+      content: "A100"; }
+  .color-group--error .color--A100 .hex {
+    color: #000000; }
+    .color-group--error .color--A100 .hex:before {
+      content: "#FF8A80"; }
+  .color-group--error .color--A100 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--error .color--A100 .name:before {
+      content: "error | red"; }
+
+.color-group--error .color--A200 {
+  background: #FF5252; }
+  .color-group--error .color--A200 .shade {
+    color: #000000; }
+    .color-group--error .color--A200 .shade:before {
+      content: "A200"; }
+  .color-group--error .color--A200 .hex {
+    color: #000000; }
+    .color-group--error .color--A200 .hex:before {
+      content: "#FF5252"; }
+  .color-group--error .color--A200 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--error .color--A200 .name:before {
+      content: "error | red"; }
+
+.color-group--error .color--A400 {
+  background: #FF1744; }
+  .color-group--error .color--A400 .shade {
+    color: #000000; }
+    .color-group--error .color--A400 .shade:before {
+      content: "A400"; }
+  .color-group--error .color--A400 .hex {
+    color: #000000; }
+    .color-group--error .color--A400 .hex:before {
+      content: "#FF1744"; }
+  .color-group--error .color--A400 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--error .color--A400 .name:before {
+      content: "error | red"; }
+
+.color-group--error .color--A600 {
+  background: #EB152A; }
+  .color-group--error .color--A600 .shade {
+    color: #ffffff; }
+    .color-group--error .color--A600 .shade:before {
+      content: "A600"; }
+  .color-group--error .color--A600 .hex {
+    color: #ffffff; }
+    .color-group--error .color--A600 .hex:before {
+      content: "#EB152A"; }
+  .color-group--error .color--A600 .name {
+    text-transform: uppercase;
+    color: #ffffff; }
+    .color-group--error .color--A600 .name:before {
+      content: "error | red"; }
+
+.color-group--error .color--A700 {
+  background: #D50000; }
+  .color-group--error .color--A700 .shade {
+    color: #ffffff; }
+    .color-group--error .color--A700 .shade:before {
+      content: "A700"; }
+  .color-group--error .color--A700 .hex {
+    color: #ffffff; }
+    .color-group--error .color--A700 .hex:before {
+      content: "#D50000"; }
+  .color-group--error .color--A700 .name {
+    text-transform: uppercase;
+    color: #ffffff; }
+    .color-group--error .color--A700 .name:before {
+      content: "error | red"; }
+
 .color-group--success .color--50 {
   background: #E8F5E9; }
   .color-group--success .color--50 .shade {
@@ -1235,6 +1459,70 @@
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--success .color--950 .name:before {
+      content: "success | green"; }
+
+.color-group--success .color--A100 {
+  background: #B9F6CA; }
+  .color-group--success .color--A100 .shade {
+    color: #000000; }
+    .color-group--success .color--A100 .shade:before {
+      content: "A100"; }
+  .color-group--success .color--A100 .hex {
+    color: #000000; }
+    .color-group--success .color--A100 .hex:before {
+      content: "#B9F6CA"; }
+  .color-group--success .color--A100 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--success .color--A100 .name:before {
+      content: "success | green"; }
+
+.color-group--success .color--A200 {
+  background: #69F0AE; }
+  .color-group--success .color--A200 .shade {
+    color: #000000; }
+    .color-group--success .color--A200 .shade:before {
+      content: "A200"; }
+  .color-group--success .color--A200 .hex {
+    color: #000000; }
+    .color-group--success .color--A200 .hex:before {
+      content: "#69F0AE"; }
+  .color-group--success .color--A200 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--success .color--A200 .name:before {
+      content: "success | green"; }
+
+.color-group--success .color--A400 {
+  background: #00E676; }
+  .color-group--success .color--A400 .shade {
+    color: #000000; }
+    .color-group--success .color--A400 .shade:before {
+      content: "A400"; }
+  .color-group--success .color--A400 .hex {
+    color: #000000; }
+    .color-group--success .color--A400 .hex:before {
+      content: "#00E676"; }
+  .color-group--success .color--A400 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--success .color--A400 .name:before {
+      content: "success | green"; }
+
+.color-group--success .color--A700 {
+  background: #00C853; }
+  .color-group--success .color--A700 .shade {
+    color: #000000; }
+    .color-group--success .color--A700 .shade:before {
+      content: "A700"; }
+  .color-group--success .color--A700 .hex {
+    color: #000000; }
+    .color-group--success .color--A700 .hex:before {
+      content: "#00C853"; }
+  .color-group--success .color--A700 .name {
+    text-transform: uppercase;
+    color: #000000; }
+    .color-group--success .color--A700 .name:before {
       content: "success | green"; }
 
 .color {

@@ -18,7 +18,7 @@
     $color-map-type: $color-type;
   }
 
-  @include cm-color($color-name, $color-map-type){
+  @include cm-color-context($color-name, $color-map-type){
       @each $color-shade, $color-value in $color-palette {
         .color-group--#{$color-type} .color--#{$color-shade} {
             background: $color-value;
@@ -28,7 +28,7 @@
                 content: quote($color-shade);
               }
             }
-            .hex{ 
+            .hex{
               color: cm-contrast($color-value);         
               &:before{
                 content: quote($color-value);

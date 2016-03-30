@@ -405,38 +405,28 @@ $cm-palettes: (
 // ----------------------------------------------
 //
 
-@function cm-color($color-name, $color-shade:null, $color-type: 'default') {
-  $color-shades: map-get($cm-palette-types, $color-type); // To offset for neutral & accent colors
+@function cm-color($color-name, $color-shade:null, $color-type: 'default', $distance: 0) {
   $palette: map-get($cm-palettes, $color-name);
   @if ($color-shade != null) {
     // map inception
-    $color-shade: map-get($color-shades, $color-shade); //Return shade by color type
+    $color-shade: cm-shade($color-shade, $color-type, $distance); //Return shade by color type
     @return map-get($palette, $color-shade);
   } @else {
-  @if $color-type != 'default' {
-    $color-50: map-get($palette, map-get($color-shades, '50'));
-    $color-100: map-get($palette, map-get($color-shades, '100'));
-    $color-200: map-get($palette, map-get($color-shades, '200'));
-    $color-300: map-get($palette, map-get($color-shades, '300'));
-    $color-400: map-get($palette, map-get($color-shades, '400'));
-    $color-500: map-get($palette, map-get($color-shades, '500'));
-    $color-600: map-get($palette, map-get($color-shades, '600'));
-    $color-700: map-get($palette, map-get($color-shades, '700'));
-    $color-800: map-get($palette, map-get($color-shades, '800'));
-    $color-900: map-get($palette, map-get($color-shades, '900'));
-    $color-950: map-get($palette, map-get($color-shades, '950'));
-    $color-palette:(
-      '50':  $color-50,
-      '100': $color-100,
-      '200': $color-200,
-      '300': $color-300,
-      '400': $color-400,
-      '500': $color-500,
-      '600': $color-600,
-      '700': $color-700,
-      '800': $color-800,
-      '900': $color-900,
-      '950': $color-950
+    $color-palette: $palette;
+    @if $color-type != 'default' {
+      $color-shades: map-get($cm-palette-types, $color-type); // To offset for neutral & accent colors
+      $color-palette:(
+        '50':  map-get($palette, map-get($color-shades, '50')),
+        '100': map-get($palette, map-get($color-shades, '100')),
+        '200': map-get($palette, map-get($color-shades, '200')),
+        '300': map-get($palette, map-get($color-shades, '300')),
+        '400': map-get($palette, map-get($color-shades, '400')),
+        '500': map-get($palette, map-get($color-shades, '500')),
+        '600': map-get($palette, map-get($color-shades, '600')),
+        '700': map-get($palette, map-get($color-shades, '700')),
+        '800': map-get($palette, map-get($color-shades, '800')),
+        '900': map-get($palette, map-get($color-shades, '900')),
+        '950': map-get($palette, map-get($color-shades, '950'))
       );
     }
     @return $color-palette;
@@ -455,7 +445,6 @@ $cm-palettes: (
 	@return lin2log(0.2126 * $rlin + 0.7152 * $glin + 0.0722 * $blin) * '100';
 }
 
-
 // Compares contrast of a given color to the light/dark arguments and returns whichever is most 'contrasty'
 @function cm-contrast($color, $dark: #000000, $light: #ffffff) {
   @if $color == null {
@@ -468,4 +457,32 @@ $cm-palettes: (
     
     @return if(abs($color-brightness - $light-text-brightness) > abs($color-brightness - $dark-text-brightness), $light, $dark);  
   }
+}
+
+@function cm-shade($shade, $color-type: 'default', $distance: 1) {  
+  $color-shades: map-get($cm-palette-types, $color-type); // To offset for neutral & accent colors
+  //get the target palette
+  $palette: cm-color($palette-name);
+  //get list of palette keys
+  $keys: map-keys($palette);
+  //keep track of our current shade
+  $index: index($keys, $shade);
+
+ @while $distance != 0 {   
+   @if map_has_key($palette, nth($keys, $index + $distance)) {
+    $shade: nth($keys, $index + $distance);
+    @return $shade;
+    $distance: 0;
+   }
+   @else {
+     @if $distance > 0 {
+       $distance: $distance - 1;
+     }
+     @else {
+       $distance: $distance + 1;
+     }
+   }
+    
+  }
+  @return $shade
 }
