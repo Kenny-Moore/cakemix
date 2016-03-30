@@ -460,6 +460,7 @@ $cm-palettes: (
 }
 
 @function cm-shade($color-shade, $color-type: 'default', $distance: 0) {
+  $shade: null;
   @if($color-shade != null){
     $color-shades: map-get($cm-palette-types, $color-type); // To offset for neutral & accent colors
     //get the target palette
