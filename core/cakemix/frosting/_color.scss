@@ -469,7 +469,7 @@ $cm-palettes: (
     $values: map-values($color-shades);
     //keep track of our current shade
     $index: index($keys, $color-shade);
-    $shade: nth($values, $index + $distance);
+    $shade: map-get($color-shades, $color-shade);
 
    @while $distance != 0 {   
      @if map_has_key($color-shades, nth($keys, $index + $distance)) {
