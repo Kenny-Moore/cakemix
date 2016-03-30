@@ -409,7 +409,9 @@ $cm-palettes: (
   $palette: map-get($cm-palettes, $color-name);
   @if ($color-shade != null) {
     // map inception
-    $color-shade: cm-shade($color-shade, $color-type, $distance); //Return shade by color type
+    @if ($distance != 0) {
+      $color-shade: cm-shade($color-shade, $color-type, $distance); //Return shade by color type
+    }
     @return map-get($palette, $color-shade);
   } @else {
     $color-palette: $palette;
