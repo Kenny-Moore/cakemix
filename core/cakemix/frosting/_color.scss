@@ -462,14 +462,13 @@ $cm-palettes: (
 @function cm-shade($shade, $color-type: 'default', $distance: 1) {  
   $color-shades: map-get($cm-palette-types, $color-type); // To offset for neutral & accent colors
   //get the target palette
-  $palette: cm-color($palette-name);
   //get list of palette keys
-  $keys: map-keys($palette);
+  $keys: map-keys($color-shades);
   //keep track of our current shade
   $index: index($keys, $shade);
 
  @while $distance != 0 {   
-   @if map_has_key($palette, nth($keys, $index + $distance)) {
+   @if map_has_key($color-shades, nth($keys, $index + $distance)) {
     $shade: nth($keys, $index + $distance);
     @return $shade;
     $distance: 0;
