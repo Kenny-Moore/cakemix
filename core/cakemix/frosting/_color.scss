@@ -407,9 +407,14 @@ $cm-palettes: (
 
 @function cm-color($color-name, $color-shade:null, $color-type: 'default', $distance: 0) {
   $palette: map-get($cm-palettes, $color-name);
-  @if $color-shade != null {
+  @if ($color-shade != null) {
     // map inception
-    $shade: cm-shade($color-shade, $color-type, $distance); //Return shade by color type
+    @if $color-type = 'neutral' {
+      $shade: cm-shade($color-shade, $color-type, $distance); //Return shade by color type
+    } @else {
+      $shade: $color-shade; //If type is not nuetral we use the initial shade
+    }
+    
     @return map-get($palette, $shade);
   } @else {
     $color-palette: $palette;
