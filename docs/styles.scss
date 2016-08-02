@@ -45,6 +45,76 @@
       }
   }  
 }
+$font-map:  map-get($cm-typography, $cm-font--default);
+$font-keys: map-keys($font-map);
+@each $font-scale in $font-keys {
+  .font-scale--#{$font-scale} {
+    $font: cm-font($font-scale);
+    .label{
+      font-family: cm-font($font-scale, 'font-family');
+      &:before{
+        content: quote($font-scale);
+      }
+    }
+    .example{
+      font: cm-font($font-scale);
+      letter-spacing: cm-font($font-scale, 'letter-spacing');
+      &:before{
+        @include cm-font-context($font-scale){
+          content: '#{$font-size}/#{$line-height} #{$font-family}';
+        }
+      }
+    }
+  }
+}
+.font{
+  ul {
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+.font-scale {
+  padding: 15px;
+  list-style-type: none;
+  @include display(flex);
+  @include align-items(center);
+  &:nth-child(odd) {
+      background-color: #fafafa;
+    .example {
+      background: #fafafa /* For browsers that do not support gradients */;
+      background: -webkit-linear-gradient(left, transparent, #ffffff , transparent); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, transparent, #ffffff, transparent); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, transparent, #ffffff, transparent); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, transparent, #ffffff , transparent); /* Standard syntax */
+    }
+  }
+  &:nth-child(even) {
+      background-color: #ffffff;
+    .example {
+      background: #ffffff /* For browsers that do not support gradients */;
+      background: -webkit-linear-gradient(left, transparent, #fafafa , transparent); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, transparent, #fafafa, transparent); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, transparent, #fafafa, transparent); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, transparent, #fafafa , transparent); /* Standard syntax */
+    }
+  }
+  .example{
+    display: block;    
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;    
+    padding: 0 15px;
+    //@include flex(1 1 0%);
+  }
+  .label{
+    @include flex(0 0 auto);
+    width: 125px;
+    text-transform: uppercase;
+  }
+}
+
 .color {
    padding: 15px;
    list-style-type: none;

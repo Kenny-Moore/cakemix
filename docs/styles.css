@@ -1525,6 +1525,193 @@
     .color-group--success .color--A700 .name:before {
       content: "success | green"; }
 
+.font-scale--display-4 .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--display-4 .label:before {
+    content: "display-4"; }
+
+.font-scale--display-4 .example {
+  font: normal normal 300 112px/151px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: -0.04em; }
+  .font-scale--display-4 .example:before {
+    content: "112px/151px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--display-3 .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--display-3 .label:before {
+    content: "display-3"; }
+
+.font-scale--display-3 .example {
+  font: normal normal 400 56px/76px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: -0.02em; }
+  .font-scale--display-3 .example:before {
+    content: "56px/76px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--display-2 .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--display-2 .label:before {
+    content: "display-2"; }
+
+.font-scale--display-2 .example {
+  font: normal normal 400 45px/48px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: -0.04em; }
+  .font-scale--display-2 .example:before {
+    content: "45px/48px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--display-1 .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--display-1 .label:before {
+    content: "display-1"; }
+
+.font-scale--display-1 .example {
+  font: normal normal 400 34px/40px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+  .font-scale--display-1 .example:before {
+    content: "34px/40px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--headline .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--headline .label:before {
+    content: "headline"; }
+
+.font-scale--headline .example {
+  font: normal normal 400 24px/32px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+  .font-scale--headline .example:before {
+    content: "24px/32px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--title .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--title .label:before {
+    content: "title"; }
+
+.font-scale--title .example {
+  font: normal normal 500 20px/27px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.02em; }
+  .font-scale--title .example:before {
+    content: "20px/27px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--subhead .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--subhead .label:before {
+    content: "subhead"; }
+
+.font-scale--subhead .example {
+  font: normal normal 400 16px/24px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04em; }
+  .font-scale--subhead .example:before {
+    content: "16px/24px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--body-2 .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--body-2 .label:before {
+    content: "body-2"; }
+
+.font-scale--body-2 .example {
+  font: normal normal bold 14px/24px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+  .font-scale--body-2 .example:before {
+    content: "14px/24px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--body-1 .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--body-1 .label:before {
+    content: "body-1"; }
+
+.font-scale--body-1 .example {
+  font: normal normal 400 14px/24px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+  .font-scale--body-1 .example:before {
+    content: "14px/24px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--action .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--action .label:before {
+    content: "action"; }
+
+.font-scale--action .example {
+  font: normal normal 500 12px/32px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+  .font-scale--action .example:before {
+    content: "12px/32px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--caption .label {
+  font-family: 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif; }
+  .font-scale--caption .label:before {
+    content: "caption"; }
+
+.font-scale--caption .example {
+  font: normal normal 400 12px/25px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+  .font-scale--caption .example:before {
+    content: "12px/25px 'RobotoDraft','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font ul {
+  font-size: 14px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.font-scale {
+  padding: 15px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center; }
+  .font-scale:nth-child(odd) {
+    background-color: #fafafa; }
+    .font-scale:nth-child(odd) .example {
+      background: #fafafa;
+      background: -webkit-linear-gradient(left, transparent, #ffffff, transparent);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, transparent, #ffffff, transparent);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, transparent, #ffffff, transparent);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, transparent, #ffffff, transparent);
+      /* Standard syntax */ }
+  .font-scale:nth-child(even) {
+    background-color: #ffffff; }
+    .font-scale:nth-child(even) .example {
+      background: #ffffff;
+      background: -webkit-linear-gradient(left, transparent, #fafafa, transparent);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, transparent, #fafafa, transparent);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, transparent, #fafafa, transparent);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, transparent, #fafafa, transparent);
+      /* Standard syntax */ }
+  .font-scale .example {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+    padding: 0 15px; }
+  .font-scale .label {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 125px;
+    text-transform: uppercase; }
+
 .color {
   padding: 15px;
   list-style-type: none; }

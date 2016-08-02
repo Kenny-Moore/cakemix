@@ -1,0 +1,43 @@
+﻿/// Creates a context of font-scale variables
+///
+$scale-map:       null !default;
+$font-style:      null !default;
+$font-variant:    null !default;
+$font-weight:     null !default;
+$font-size:       null !default;
+$line-height:     null !default;
+$letter-spacing:  null !default;
+$font-family:     null !default;
+
+@mixin cm-font-context($scale) {
+  $scope-scale-map:     $scale-map;
+  $scope-font-style:    $font-style;      
+  $scope-font-variant:  $font-variant;    
+  $scope-font-weight:   $font-weight;     
+  $scope-font-size:     $font-size;       
+  $scope-line-height:   $line-height;     
+  $scope-letter-spacing:$letter-spacing; 
+  $scope-font-family:   $font-family;
+
+  $font-map:  map-get($cm-typography, $cm-font--default);
+  $scale-map: map-get($font-map, $scale) !global;
+
+  $font-style:          map-get($scale-map, 'font-style')     !global;
+  $font-variant:        map-get($scale-map, 'font-variant')   !global;
+  $font-weight:         map-get($scale-map, 'font-weight')    !global;
+  $font-size:           map-get($scale-map, 'font-size')      !global;
+  $line-height:         map-get($scale-map, 'line-height')    !global;
+  $letter-spacing:      map-get($scale-map, 'letter-spacing') !global;
+  $font-family: unquote(map-get($scale-map, 'font-family'))   !global;
+
+  @content;
+
+  $scale-map:     $scope-scale-map      !global;
+  $font-style:    $scope-font-style     !global;
+  $font-variant:  $scope-font-variant   !global;
+  $font-weight:   $scope-font-weight    !global;
+  $font-size:     $scope-font-size      !global;
+  $line-height:   $scope-line-height    !global;
+  $letter-spacing:$scope-letter-spacing !global;
+  $font-family:   $scope-font-family    !global;  
+}
