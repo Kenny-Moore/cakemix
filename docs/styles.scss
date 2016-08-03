@@ -6,7 +6,10 @@
 /// <reference path="../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss" />
 /// <reference path="../bower_components/mathsass/dist/_math.scss" />
 /// <reference path="../core/_cakemix.scss" />
-
+$cm-font--default:  'cozy';
+$cm-color--primary:  "green";
+$cm-color--accent:  "teal";
+$cm-color--neutral:  "blue-grey";
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/mathsass/dist/math';
 @import "../core/cakemix"; 
@@ -45,13 +48,13 @@
       }
   }  
 }
+
 $font-map:  map-get($cm-typography, $cm-font--default);
 $font-keys: map-keys($font-map);
 @each $font-scale in $font-keys {
   .font-scale--#{$font-scale} {
     $font: cm-font($font-scale);
     .label{
-      font-family: cm-font($font-scale, 'font-family');
       &:before{
         content: quote($font-scale);
       }
@@ -109,6 +112,7 @@ $font-keys: map-keys($font-map);
     //@include flex(1 1 0%);
   }
   .label{
+    font-family: 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
     @include flex(0 0 auto);
     width: 125px;
     text-transform: uppercase;
