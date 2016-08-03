@@ -6,10 +6,7 @@
 /// <reference path="../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss" />
 /// <reference path="../bower_components/mathsass/dist/_math.scss" />
 /// <reference path="../core/_cakemix.scss" />
-$cm-font--default:  'cozy';
-$cm-color--primary:  "green";
-$cm-color--accent:  "teal";
-$cm-color--neutral:  "blue-grey";
+
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/mathsass/dist/math';
 @import "../core/cakemix"; 

@@ -54,7 +54,7 @@
   src: url("../fonts/Roboto-BlackItalic.ttf") format("truetype"); }
 
 .color-group--primary .color--50 {
-  background: #E8F5E9; }
+  background: #D7ECF9; }
   .color-group--primary .color--50 .shade {
     color: #000000; }
     .color-group--primary .color--50 .shade:before {
@@ -62,15 +62,15 @@
   .color-group--primary .color--50 .hex {
     color: #000000; }
     .color-group--primary .color--50 .hex:before {
-      content: "#E8F5E9"; }
+      content: "#D7ECF9"; }
   .color-group--primary .color--50 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--primary .color--50 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--100 {
-  background: #C8E6C9; }
+  background: #A1D2F2; }
   .color-group--primary .color--100 .shade {
     color: #000000; }
     .color-group--primary .color--100 .shade:before {
@@ -78,15 +78,15 @@
   .color-group--primary .color--100 .hex {
     color: #000000; }
     .color-group--primary .color--100 .hex:before {
-      content: "#C8E6C9"; }
+      content: "#A1D2F2"; }
   .color-group--primary .color--100 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--primary .color--100 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--200 {
-  background: #A5D6A7; }
+  background: #61B1EA; }
   .color-group--primary .color--200 .shade {
     color: #000000; }
     .color-group--primary .color--200 .shade:before {
@@ -94,15 +94,15 @@
   .color-group--primary .color--200 .hex {
     color: #000000; }
     .color-group--primary .color--200 .hex:before {
-      content: "#A5D6A7"; }
+      content: "#61B1EA"; }
   .color-group--primary .color--200 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--primary .color--200 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--300 {
-  background: #81C784; }
+  background: #2C8FD5; }
   .color-group--primary .color--300 .shade {
     color: #000000; }
     .color-group--primary .color--300 .shade:before {
@@ -110,63 +110,63 @@
   .color-group--primary .color--300 .hex {
     color: #000000; }
     .color-group--primary .color--300 .hex:before {
-      content: "#81C784"; }
+      content: "#2C8FD5"; }
   .color-group--primary .color--300 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--primary .color--300 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--400 {
-  background: #66BB6A; }
+  background: #1077C1; }
   .color-group--primary .color--400 .shade {
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--400 .shade:before {
       content: "400"; }
   .color-group--primary .color--400 .hex {
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--400 .hex:before {
-      content: "#66BB6A"; }
+      content: "#1077C1"; }
   .color-group--primary .color--400 .name {
     text-transform: uppercase;
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--400 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--500 {
-  background: #4CAF50; }
+  background: #0067B1; }
   .color-group--primary .color--500 .shade {
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--500 .shade:before {
       content: "500"; }
   .color-group--primary .color--500 .hex {
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--500 .hex:before {
-      content: "#4CAF50"; }
+      content: "#0067B1"; }
   .color-group--primary .color--500 .name {
     text-transform: uppercase;
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--500 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--600 {
-  background: #43A047; }
+  background: #005C9E; }
   .color-group--primary .color--600 .shade {
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--600 .shade:before {
       content: "600"; }
   .color-group--primary .color--600 .hex {
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--600 .hex:before {
-      content: "#43A047"; }
+      content: "#005C9E"; }
   .color-group--primary .color--600 .name {
     text-transform: uppercase;
-    color: #000000; }
+    color: #ffffff; }
     .color-group--primary .color--600 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--700 {
-  background: #388E3C; }
+  background: #00528E; }
   .color-group--primary .color--700 .shade {
     color: #ffffff; }
     .color-group--primary .color--700 .shade:before {
@@ -174,15 +174,15 @@
   .color-group--primary .color--700 .hex {
     color: #ffffff; }
     .color-group--primary .color--700 .hex:before {
-      content: "#388E3C"; }
+      content: "#00528E"; }
   .color-group--primary .color--700 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--primary .color--700 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--800 {
-  background: #2E7D32; }
+  background: #004272; }
   .color-group--primary .color--800 .shade {
     color: #ffffff; }
     .color-group--primary .color--800 .shade:before {
@@ -190,15 +190,15 @@
   .color-group--primary .color--800 .hex {
     color: #ffffff; }
     .color-group--primary .color--800 .hex:before {
-      content: "#2E7D32"; }
+      content: "#004272"; }
   .color-group--primary .color--800 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--primary .color--800 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--900 {
-  background: #1B5E20; }
+  background: #00365C; }
   .color-group--primary .color--900 .shade {
     color: #ffffff; }
     .color-group--primary .color--900 .shade:before {
@@ -206,15 +206,15 @@
   .color-group--primary .color--900 .hex {
     color: #ffffff; }
     .color-group--primary .color--900 .hex:before {
-      content: "#1B5E20"; }
+      content: "#00365C"; }
   .color-group--primary .color--900 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--primary .color--900 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--primary .color--950 {
-  background: #155119; }
+  background: #002947; }
   .color-group--primary .color--950 .shade {
     color: #ffffff; }
     .color-group--primary .color--950 .shade:before {
@@ -222,79 +222,15 @@
   .color-group--primary .color--950 .hex {
     color: #ffffff; }
     .color-group--primary .color--950 .hex:before {
-      content: "#155119"; }
+      content: "#002947"; }
   .color-group--primary .color--950 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--primary .color--950 .name:before {
-      content: "primary | green"; }
-
-.color-group--primary .color--A100 {
-  background: #B9F6CA; }
-  .color-group--primary .color--A100 .shade {
-    color: #000000; }
-    .color-group--primary .color--A100 .shade:before {
-      content: "A100"; }
-  .color-group--primary .color--A100 .hex {
-    color: #000000; }
-    .color-group--primary .color--A100 .hex:before {
-      content: "#B9F6CA"; }
-  .color-group--primary .color--A100 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--primary .color--A100 .name:before {
-      content: "primary | green"; }
-
-.color-group--primary .color--A200 {
-  background: #69F0AE; }
-  .color-group--primary .color--A200 .shade {
-    color: #000000; }
-    .color-group--primary .color--A200 .shade:before {
-      content: "A200"; }
-  .color-group--primary .color--A200 .hex {
-    color: #000000; }
-    .color-group--primary .color--A200 .hex:before {
-      content: "#69F0AE"; }
-  .color-group--primary .color--A200 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--primary .color--A200 .name:before {
-      content: "primary | green"; }
-
-.color-group--primary .color--A400 {
-  background: #00E676; }
-  .color-group--primary .color--A400 .shade {
-    color: #000000; }
-    .color-group--primary .color--A400 .shade:before {
-      content: "A400"; }
-  .color-group--primary .color--A400 .hex {
-    color: #000000; }
-    .color-group--primary .color--A400 .hex:before {
-      content: "#00E676"; }
-  .color-group--primary .color--A400 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--primary .color--A400 .name:before {
-      content: "primary | green"; }
-
-.color-group--primary .color--A700 {
-  background: #00C853; }
-  .color-group--primary .color--A700 .shade {
-    color: #000000; }
-    .color-group--primary .color--A700 .shade:before {
-      content: "A700"; }
-  .color-group--primary .color--A700 .hex {
-    color: #000000; }
-    .color-group--primary .color--A700 .hex:before {
-      content: "#00C853"; }
-  .color-group--primary .color--A700 .name {
-    text-transform: uppercase;
-    color: #000000; }
-    .color-group--primary .color--A700 .name:before {
-      content: "primary | green"; }
+      content: "primary | custom-blue"; }
 
 .color-group--accent .color--50 {
-  background: #E0F2F1; }
+  background: #FFF3E0; }
   .color-group--accent .color--50 .shade {
     color: #000000; }
     .color-group--accent .color--50 .shade:before {
@@ -302,15 +238,15 @@
   .color-group--accent .color--50 .hex {
     color: #000000; }
     .color-group--accent .color--50 .hex:before {
-      content: "#E0F2F1"; }
+      content: "#FFF3E0"; }
   .color-group--accent .color--50 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--accent .color--50 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--100 {
-  background: #B2DFDB; }
+  background: #FFE0B2; }
   .color-group--accent .color--100 .shade {
     color: #000000; }
     .color-group--accent .color--100 .shade:before {
@@ -318,15 +254,15 @@
   .color-group--accent .color--100 .hex {
     color: #000000; }
     .color-group--accent .color--100 .hex:before {
-      content: "#B2DFDB"; }
+      content: "#FFE0B2"; }
   .color-group--accent .color--100 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--accent .color--100 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--200 {
-  background: #80CBC4; }
+  background: #FFCC80; }
   .color-group--accent .color--200 .shade {
     color: #000000; }
     .color-group--accent .color--200 .shade:before {
@@ -334,15 +270,15 @@
   .color-group--accent .color--200 .hex {
     color: #000000; }
     .color-group--accent .color--200 .hex:before {
-      content: "#80CBC4"; }
+      content: "#FFCC80"; }
   .color-group--accent .color--200 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--accent .color--200 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--300 {
-  background: #4DB6AC; }
+  background: #FFB74D; }
   .color-group--accent .color--300 .shade {
     color: #000000; }
     .color-group--accent .color--300 .shade:before {
@@ -350,15 +286,15 @@
   .color-group--accent .color--300 .hex {
     color: #000000; }
     .color-group--accent .color--300 .hex:before {
-      content: "#4DB6AC"; }
+      content: "#FFB74D"; }
   .color-group--accent .color--300 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--accent .color--300 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--400 {
-  background: #26A69A; }
+  background: #FFA726; }
   .color-group--accent .color--400 .shade {
     color: #000000; }
     .color-group--accent .color--400 .shade:before {
@@ -366,15 +302,15 @@
   .color-group--accent .color--400 .hex {
     color: #000000; }
     .color-group--accent .color--400 .hex:before {
-      content: "#26A69A"; }
+      content: "#FFA726"; }
   .color-group--accent .color--400 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--accent .color--400 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--500 {
-  background: #009688; }
+  background: #FF9800; }
   .color-group--accent .color--500 .shade {
     color: #000000; }
     .color-group--accent .color--500 .shade:before {
@@ -382,79 +318,79 @@
   .color-group--accent .color--500 .hex {
     color: #000000; }
     .color-group--accent .color--500 .hex:before {
-      content: "#009688"; }
+      content: "#FF9800"; }
   .color-group--accent .color--500 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--accent .color--500 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--600 {
-  background: #00897B; }
+  background: #FB8C00; }
   .color-group--accent .color--600 .shade {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--600 .shade:before {
       content: "600"; }
   .color-group--accent .color--600 .hex {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--600 .hex:before {
-      content: "#00897B"; }
+      content: "#FB8C00"; }
   .color-group--accent .color--600 .name {
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--600 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--700 {
-  background: #00796B; }
+  background: #F57C00; }
   .color-group--accent .color--700 .shade {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--700 .shade:before {
       content: "700"; }
   .color-group--accent .color--700 .hex {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--700 .hex:before {
-      content: "#00796B"; }
+      content: "#F57C00"; }
   .color-group--accent .color--700 .name {
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--700 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--800 {
-  background: #00695C; }
+  background: #EF6C00; }
   .color-group--accent .color--800 .shade {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--800 .shade:before {
       content: "800"; }
   .color-group--accent .color--800 .hex {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--800 .hex:before {
-      content: "#00695C"; }
+      content: "#EF6C00"; }
   .color-group--accent .color--800 .name {
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--800 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--900 {
-  background: #004D40; }
+  background: #E65100; }
   .color-group--accent .color--900 .shade {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--900 .shade:before {
       content: "900"; }
   .color-group--accent .color--900 .hex {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--900 .hex:before {
-      content: "#004D40"; }
+      content: "#E65100"; }
   .color-group--accent .color--900 .name {
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #000000; }
     .color-group--accent .color--900 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--accent .color--950 {
-  background: #003D32; }
+  background: #DC4100; }
   .color-group--accent .color--950 .shade {
     color: #ffffff; }
     .color-group--accent .color--950 .shade:before {
@@ -462,15 +398,15 @@
   .color-group--accent .color--950 .hex {
     color: #ffffff; }
     .color-group--accent .color--950 .hex:before {
-      content: "#003D32"; }
+      content: "#DC4100"; }
   .color-group--accent .color--950 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--accent .color--950 .name:before {
-      content: "accent | teal"; }
+      content: "accent | orange"; }
 
 .color-group--neutral .color--50 {
-  background: #F6F7F8; }
+  background: #FEFEFE; }
   .color-group--neutral .color--50 .shade {
     color: #000000; }
     .color-group--neutral .color--50 .shade:before {
@@ -478,15 +414,15 @@
   .color-group--neutral .color--50 .hex {
     color: #000000; }
     .color-group--neutral .color--50 .hex:before {
-      content: "#F6F7F8"; }
+      content: "#FEFEFE"; }
   .color-group--neutral .color--50 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--neutral .color--50 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--100 {
-  background: #ECEFF1; }
+  background: #FAFAFA; }
   .color-group--neutral .color--100 .shade {
     color: #000000; }
     .color-group--neutral .color--100 .shade:before {
@@ -494,15 +430,15 @@
   .color-group--neutral .color--100 .hex {
     color: #000000; }
     .color-group--neutral .color--100 .hex:before {
-      content: "#ECEFF1"; }
+      content: "#FAFAFA"; }
   .color-group--neutral .color--100 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--neutral .color--100 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--200 {
-  background: #CFD8DC; }
+  background: #F5F5F5; }
   .color-group--neutral .color--200 .shade {
     color: #000000; }
     .color-group--neutral .color--200 .shade:before {
@@ -510,15 +446,15 @@
   .color-group--neutral .color--200 .hex {
     color: #000000; }
     .color-group--neutral .color--200 .hex:before {
-      content: "#CFD8DC"; }
+      content: "#F5F5F5"; }
   .color-group--neutral .color--200 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--neutral .color--200 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--300 {
-  background: #B0BEC5; }
+  background: #EEEEEE; }
   .color-group--neutral .color--300 .shade {
     color: #000000; }
     .color-group--neutral .color--300 .shade:before {
@@ -526,15 +462,15 @@
   .color-group--neutral .color--300 .hex {
     color: #000000; }
     .color-group--neutral .color--300 .hex:before {
-      content: "#B0BEC5"; }
+      content: "#EEEEEE"; }
   .color-group--neutral .color--300 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--neutral .color--300 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--400 {
-  background: #9BADB5; }
+  background: #E4E4E4; }
   .color-group--neutral .color--400 .shade {
     color: #000000; }
     .color-group--neutral .color--400 .shade:before {
@@ -542,15 +478,15 @@
   .color-group--neutral .color--400 .hex {
     color: #000000; }
     .color-group--neutral .color--400 .hex:before {
-      content: "#9BADB5"; }
+      content: "#E4E4E4"; }
   .color-group--neutral .color--400 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--neutral .color--400 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--500 {
-  background: #839AA5; }
+  background: #D1D1D1; }
   .color-group--neutral .color--500 .shade {
     color: #000000; }
     .color-group--neutral .color--500 .shade:before {
@@ -558,15 +494,15 @@
   .color-group--neutral .color--500 .hex {
     color: #000000; }
     .color-group--neutral .color--500 .hex:before {
-      content: "#839AA5"; }
+      content: "#D1D1D1"; }
   .color-group--neutral .color--500 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--neutral .color--500 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--600 {
-  background: #78909C; }
+  background: #BDBDBD; }
   .color-group--neutral .color--600 .shade {
     color: #000000; }
     .color-group--neutral .color--600 .shade:before {
@@ -574,31 +510,31 @@
   .color-group--neutral .color--600 .hex {
     color: #000000; }
     .color-group--neutral .color--600 .hex:before {
-      content: "#78909C"; }
+      content: "#BDBDBD"; }
   .color-group--neutral .color--600 .name {
     text-transform: uppercase;
     color: #000000; }
     .color-group--neutral .color--600 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--700 {
-  background: #627884; }
+  background: #9A9A9A; }
   .color-group--neutral .color--700 .shade {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--700 .shade:before {
       content: "700"; }
   .color-group--neutral .color--700 .hex {
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--700 .hex:before {
-      content: "#627884"; }
+      content: "#9A9A9A"; }
   .color-group--neutral .color--700 .name {
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #000000; }
     .color-group--neutral .color--700 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--800 {
-  background: #455A64; }
+  background: #616161; }
   .color-group--neutral .color--800 .shade {
     color: #ffffff; }
     .color-group--neutral .color--800 .shade:before {
@@ -606,15 +542,15 @@
   .color-group--neutral .color--800 .hex {
     color: #ffffff; }
     .color-group--neutral .color--800 .hex:before {
-      content: "#455A64"; }
+      content: "#616161"; }
   .color-group--neutral .color--800 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--neutral .color--800 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--900 {
-  background: #37474F; }
+  background: #424242; }
   .color-group--neutral .color--900 .shade {
     color: #ffffff; }
     .color-group--neutral .color--900 .shade:before {
@@ -622,15 +558,15 @@
   .color-group--neutral .color--900 .hex {
     color: #ffffff; }
     .color-group--neutral .color--900 .hex:before {
-      content: "#37474F"; }
+      content: "#424242"; }
   .color-group--neutral .color--900 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--neutral .color--900 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--neutral .color--950 {
-  background: #263238; }
+  background: #212121; }
   .color-group--neutral .color--950 .shade {
     color: #ffffff; }
     .color-group--neutral .color--950 .shade:before {
@@ -638,12 +574,12 @@
   .color-group--neutral .color--950 .hex {
     color: #ffffff; }
     .color-group--neutral .color--950 .hex:before {
-      content: "#263238"; }
+      content: "#212121"; }
   .color-group--neutral .color--950 .name {
     text-transform: uppercase;
     color: #ffffff; }
     .color-group--neutral .color--950 .name:before {
-      content: "neutral | blue-grey"; }
+      content: "neutral | grey"; }
 
 .color-group--warning .color--50 {
   background: #FFF8E1; }
@@ -1641,10 +1577,10 @@
   content: "display-2"; }
 
 .font-scale--display-2 .example {
-  font: normal normal 400 45px/48px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  font: normal normal 400 45px/48px 'Roboto-Light','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: -0.04em; }
   .font-scale--display-2 .example:before {
-    content: "45px/48px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+    content: "45px/48px 'Roboto-Light','Roboto', Arial, Helvetica, sans-serif"; }
 
 .font-scale--display-1 .label:before {
   content: "display-1"; }
