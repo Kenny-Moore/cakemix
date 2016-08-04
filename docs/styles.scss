@@ -66,15 +66,6 @@ $font-keys: map-keys($font-map);
   }
 }
 
-.font-scale--example {
-    .example{
-      //@include cm-font("header-2");
-      font: cm-font("body-2");
-      line-height: cm-font("header-2", 'line-height');
-      background-color: cm-color('primary', '500');
-    }
-  }
-
 .font{
   ul {
     font-size: 14px;
