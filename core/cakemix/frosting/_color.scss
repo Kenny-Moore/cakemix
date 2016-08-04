@@ -419,6 +419,9 @@ $cm-palettes: (
 //
 
 @function cm-color($color-name, $color-shade:null, $color-type: 'default', $distance: 0) {
+  @if map-has-key($cm-colors, $color-name){
+    $color-name: map-get($cm-colors, $color-name);
+  }
   $palette: map-get($cm-palettes, $color-name);
   @if ($color-shade != null) {
     // map inception

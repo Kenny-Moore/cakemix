@@ -13,6 +13,8 @@ In the repo you'll find the following directories and files.
 | ingredients     | Source code for Mixins                         |
 | icing           | Shared code for Functions                      |
 
+Please update http://codepen.io/USIUX/pen/mPyavw?editors=0100 when changes are made to these files
+
 Everything that is below this line ________ is out of date...
 ***
 # Coding Standards

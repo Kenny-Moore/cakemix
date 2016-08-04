@@ -1670,6 +1670,11 @@
 .font-scale--caption .example:before {
   content: "12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
 
+.font-scale--example .example {
+  font: normal normal normal 12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  background-color: #0067B1; }
+
 .font ul {
   font-size: 14px;
   list-style-type: none;

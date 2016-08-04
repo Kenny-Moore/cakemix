@@ -48,16 +48,16 @@
       @if $direction == row {
         @include border-right-radius(0);
       }
-      @if $direction = column {
+      @if $direction == column {
         @include border-bottom-radius(0);
       }
     }
 
     & > #{$group}#{$lastItem}#{$notFirst}#{$groupChild} {
-      @if $direction = row {
+      @if $direction == row {
         @include border-left-radius(0);
       }
-      @if $direction = column {
+      @if $direction == column {
         @include border-top-radius(0);
       }
     }
@@ -67,21 +67,21 @@
     }
 
     & > &#{$lastItem} > #{$group}#{$lastItem}#{$groupChild} {
-      @if $direction = row {
+      @if $direction == row {
         @include border-right-radius(0);
       }
 
-      @if $direction = column {
+      @if $direction == column {
         @include border-bottom-radius(0);
       }
     }
 
     & > &#{$lastItem} > #{$group}#{$firstItem}#{$groupChild} {
-      @if $direction = row {
+      @if $direction == row {
         @include border-left-radius(0);
       }
 
-      @if $direction = column {
+      @if $direction == column {
         @include border-top-radius(0);
       }
     }
