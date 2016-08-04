@@ -2,101 +2,9 @@
 // ----------------------------------------------
 //
 //
-$cm-typography: (
-    'standard': (
-        'header-1': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 400,
-            'font-size': 45px,
-            'line-height': 48px,
-            'letter-spacing': -0.04em,
-            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'header-2': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 400,
-            'font-size': 34px,
-            'line-height': 40px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'headline': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 400,
-            'font-size': 24px,
-            'line-height': 32px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'title': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 500,
-            'font-size': 20px,
-            'line-height': 28px,
-            'letter-spacing': 0.02em,
-            'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'subhead': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 400,
-            'font-size': 16px,
-            'line-height': 24px,
-            'letter-spacing': 0.04em,
-            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'body-1': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 'bold',
-            'font-size': 14px,
-            'line-height': 24px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'body-2': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 400,
-            'font-size': 14px,
-            'line-height': 20px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'action': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 500,
-            'font-size': 12px,
-            'line-height': 32px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'caption': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 400,
-            'font-size': 12px,
-            'line-height': 24px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'small': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 400,
-            'font-size': 12px,
-            'line-height': 24px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        )
-    ),
+$cm-typography: (    
     'cozy': (
-        'header-1': (
+        'headline-1': (
             'font-style': normal,
             'font-variant': normal,
             'font-weight': 400,
@@ -105,7 +13,7 @@ $cm-typography: (
             'letter-spacing': -0.04em,
             'font-family': "'Roboto-Light','Roboto', Arial, Helvetica, sans-serif"
         ),
-        'header-2': (
+        'headline-2': (
             'font-style': normal,
             'font-variant': normal,
             'font-weight': 400,
@@ -114,7 +22,7 @@ $cm-typography: (
             'letter-spacing': 0.0em,
             'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
         ),
-        'headline': (
+        'title-1': (
             'font-style': normal,
             'font-variant': normal,
             'font-weight': 400,
@@ -123,7 +31,7 @@ $cm-typography: (
             'letter-spacing': 0.0em,
             'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
         ),
-        'title': (
+        'title-2': (
             'font-style': normal,
             'font-variant': normal,
             'font-weight': 500,
@@ -132,7 +40,7 @@ $cm-typography: (
             'letter-spacing': 0.02em,
             'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
         ),
-        'subhead': (
+        'heading-1': (
             'font-style': normal,
             'font-variant': normal,
             'font-weight': 400,
@@ -141,12 +49,21 @@ $cm-typography: (
             'letter-spacing': 0.04em,
             'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
         ),
-        'body-1': (
+        'heading-2': (
             'font-style': normal,
             'font-variant': normal,
             'font-weight': 'bold',
             'font-size': 14px,
             'line-height': 24px,
+            'letter-spacing': 0.0em,
+            'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
+        ),
+        'body-1': (
+            'font-style': normal,
+            'font-variant': normal,
+            'font-weight': 500,
+            'font-size': 12px,
+            'line-height': 32px,
             'letter-spacing': 0.0em,
             'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
         ),
@@ -158,15 +75,6 @@ $cm-typography: (
             'line-height': 24px,
             'letter-spacing': .01em,
             'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
-        ),
-        'action': (
-            'font-style': normal,
-            'font-variant': normal,
-            'font-weight': 500,
-            'font-size': 12px,
-            'line-height': 32px,
-            'letter-spacing': 0.0em,
-            'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
         ),
         'caption': (
             'font-style': normal,
