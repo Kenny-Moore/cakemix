@@ -10,11 +10,10 @@ In the repo you'll find the following directories and files.
 | File/Folder     | Provides                                       |
 |-----------------|------------------------------------------------|
 | _recipe.less	  | contains default values and config settings    |
-| ingredients     | Source code for Cakemix components.            |
-| icing           | Shared code for unified styling of components. |
-| utensils        | Helper mixins								   |
+| ingredients     | Source code for Mixins          |
+| icing           | Shared code for Functions|
 
-
+Everything that is below this line ________ is out of date...
 ***
 # Coding Standards
 > Please help make the less code and markdown documentation _consistent, readable, and maintainable_ by conforming to these guidelines when contributing:

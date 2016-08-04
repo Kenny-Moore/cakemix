@@ -3,7 +3,7 @@
 // The font function will return values needed to set properties but if you want to set all font related properties at once then use this mixin instead.
 //
 // ----------------------------------------------
-// $scale {string}        === 'display-1' || 'header' || [font-scale] represents the scale you want to target
+// $scale {string}        === 'header-2' || 'headline' || [font-scale] represents the scale you want to target
 //
 
 @mixin cm-font($scale) {
@@ -15,7 +15,7 @@
 
 // SCSS
 /*.input-group{
-    @include cm-font('display-1');
+    @include cm-font('header-2');
 }*/
 
 // Rendered CSS
