@@ -1,4 +1,4 @@
-﻿<link rel="stylesheet" type="text/css" href="./styles.css">
+﻿
 # Cakemix Typography Scales
 > Using the Cake mix Font function, the following font sizes are currently generated for each defined font scale
 <div class="typography">  

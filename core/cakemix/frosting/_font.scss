@@ -84,6 +84,15 @@ $cm-typography: (
             'line-height': 24px,
             'letter-spacing': 0.0em,
             'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
+        ),
+        'small': (
+            'font-style': normal,
+            'font-variant': normal,
+            'font-weight': 400,
+            'font-size': 12px,
+            'line-height': 24px,
+            'letter-spacing': 0.0em,
+            'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
         )
     ),
     'cozy': (
@@ -147,7 +156,7 @@ $cm-typography: (
             'font-weight': normal,
             'font-size': 12px,
             'line-height': 24px,
-            'letter-spacing': .1px,
+            'letter-spacing': .01em,
             'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
         ),
         'action': (
@@ -167,6 +176,15 @@ $cm-typography: (
             'line-height': 24px,
             'letter-spacing': 0.0em,
             'font-family': "'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"
+        ),
+        'small': (
+            'font-style': normal,
+            'font-variant': normal,
+            'font-weight': 500,
+            'font-size': 10px,
+            'line-height': 18px,
+            'letter-spacing': -0.02em,
+            'font-family': "'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"
         )
     )
 );
