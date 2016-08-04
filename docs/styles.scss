@@ -54,7 +54,7 @@ $font-keys: map-keys($font-map);
       &:before{
         content: quote($font-scale);
       }
-    }
+    } 
     .example{
       @include cm-font($font-scale);
       &:before{
