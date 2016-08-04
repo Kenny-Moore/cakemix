@@ -9,9 +9,9 @@ In the repo you'll find the following directories and files.
 
 | File/Folder     | Provides                                       |
 |-----------------|------------------------------------------------|
-| _recipe.less	  | contains default values and config settings    |
-| ingredients     | Source code for Mixins          |
-| icing           | Shared code for Functions|
+| recipe	      | contains default values and config settings    |
+| ingredients     | Source code for Mixins                         |
+| icing           | Shared code for Functions                      |
 
 Everything that is below this line ________ is out of date...
 ***
