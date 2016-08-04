@@ -53,6 +53,13 @@
   font-family: 'Roboto-BlackItalic';
   src: url("../fonts/Roboto-BlackItalic.ttf") format("truetype"); }
 
+/*.input-group{
+    @include cm-font('display-1');
+}*/
+/*.input-group{
+  font: normal normal 400 34px/40px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+}*/
 .color-group--primary .color--50 {
   background: #D7ECF9; }
   .color-group--primary .color--50 .shade {
@@ -1573,14 +1580,23 @@
     .color-group--success .color--A700 .name:before {
       content: "success | green"; }
 
+.font-scale--display-2 {
+  font: normal normal 400 45px/48px 'Roboto-Light','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: -0.04em; }
+
 .font-scale--display-2 .label:before {
   content: "display-2"; }
 
 .font-scale--display-2 .example {
   font: normal normal 400 45px/48px 'Roboto-Light','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: -0.04em; }
-  .font-scale--display-2 .example:before {
-    content: "45px/48px 'Roboto-Light','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--display-2 .example:before {
+  content: "45px/48px 'Roboto-Light','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--display-1 {
+  font: normal normal 400 34px/40px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
 
 .font-scale--display-1 .label:before {
   content: "display-1"; }
@@ -1588,8 +1604,13 @@
 .font-scale--display-1 .example {
   font: normal normal 400 34px/40px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0em; }
-  .font-scale--display-1 .example:before {
-    content: "34px/40px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--display-1 .example:before {
+  content: "34px/40px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--headline {
+  font: normal normal 400 24px/32px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
 
 .font-scale--headline .label:before {
   content: "headline"; }
@@ -1597,8 +1618,13 @@
 .font-scale--headline .example {
   font: normal normal 400 24px/32px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0em; }
-  .font-scale--headline .example:before {
-    content: "24px/32px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--headline .example:before {
+  content: "24px/32px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--title {
+  font: normal normal 500 20px/27px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.02em; }
 
 .font-scale--title .label:before {
   content: "title"; }
@@ -1606,8 +1632,13 @@
 .font-scale--title .example {
   font: normal normal 500 20px/27px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0.02em; }
-  .font-scale--title .example:before {
-    content: "20px/27px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--title .example:before {
+  content: "20px/27px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--subhead {
+  font: normal normal 400 16px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04em; }
 
 .font-scale--subhead .label:before {
   content: "subhead"; }
@@ -1615,8 +1646,13 @@
 .font-scale--subhead .example {
   font: normal normal 400 16px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0.04em; }
-  .font-scale--subhead .example:before {
-    content: "16px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--subhead .example:before {
+  content: "16px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--body-2 {
+  font: normal normal bold 14px/24px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
 
 .font-scale--body-2 .label:before {
   content: "body-2"; }
@@ -1624,8 +1660,13 @@
 .font-scale--body-2 .example {
   font: normal normal bold 14px/24px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0em; }
-  .font-scale--body-2 .example:before {
-    content: "14px/24px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--body-2 .example:before {
+  content: "14px/24px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--body-1 {
+  font: normal normal normal 12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1px; }
 
 .font-scale--body-1 .label:before {
   content: "body-1"; }
@@ -1633,8 +1674,13 @@
 .font-scale--body-1 .example {
   font: normal normal normal 12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0.1px; }
-  .font-scale--body-1 .example:before {
-    content: "12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--body-1 .example:before {
+  content: "12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--action {
+  font: normal normal 500 12px/32px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
 
 .font-scale--action .label:before {
   content: "action"; }
@@ -1642,8 +1688,13 @@
 .font-scale--action .example {
   font: normal normal 500 12px/32px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0em; }
-  .font-scale--action .example:before {
-    content: "12px/32px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--action .example:before {
+  content: "12px/32px 'Roboto-Medium','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--caption {
+  font: normal normal 400 12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
 
 .font-scale--caption .label:before {
   content: "caption"; }
@@ -1651,8 +1702,9 @@
 .font-scale--caption .example {
   font: normal normal 400 12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
   letter-spacing: 0em; }
-  .font-scale--caption .example:before {
-    content: "12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
+
+.font-scale--caption .example:before {
+  content: "12px/24px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif"; }
 
 .font ul {
   font-size: 14px;

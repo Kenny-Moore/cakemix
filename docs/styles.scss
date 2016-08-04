@@ -50,15 +50,14 @@ $font-map:  map-get($cm-typography, $cm-font--default);
 $font-keys: map-keys($font-map);
 @each $font-scale in $font-keys {
   .font-scale--#{$font-scale} {
-    $font: cm-font($font-scale);
+    @include cm-font($font-scale);
     .label{
       &:before{
         content: quote($font-scale);
       }
     }
     .example{
-      font: cm-font($font-scale);
-      letter-spacing: cm-font($font-scale, 'letter-spacing');
+      @include cm-font($font-scale);
       &:before{
         @include cm-font-context($font-scale){
           content: '#{$font-size}/#{$line-height} #{$font-family}';

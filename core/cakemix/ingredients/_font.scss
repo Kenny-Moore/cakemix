@@ -1,0 +1,25 @@
+﻿// cm-font
+// ----------------------------------------------
+// The font function will return values needed to set properties but if you want to set all font related properties at once then use this mixin instead.
+//
+// ----------------------------------------------
+// $scale {string}        === 'display-1' || 'header' || [font-scale] represents the scale you want to target
+//
+
+@mixin cm-font($scale) {
+  & {
+    font: cm-font($scale);
+    letter-spacing: cm-font($scale, 'letter-spacing'); 
+  }
+}
+
+// SCSS
+/*.input-group{
+    @include cm-font('display-1');
+}*/
+
+// Rendered CSS
+/*.input-group{
+  font: normal normal 400 34px/40px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
+  letter-spacing: 0em; }
+}*/
