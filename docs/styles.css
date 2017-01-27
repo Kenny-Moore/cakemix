@@ -1,11 +1,4 @@
-﻿/*.input-group{
-    $flexGrouping: '.ux-flex-item';
-    $flexGroupingChild: ' > *';
-    $firstOfType: ':first-of-type';
-    $lastOfType: ':last-of-type';
-    @include cm-group($group: $flexGrouping, $groupChild: $flexGroupingChild, $firstItem: $firstOfType, $lastItem: $lastOfType);
-}*/
-@font-face {
+﻿@font-face {
   font-family: 'Roboto-Regular';
   src: url("../fonts/Roboto-Regular.ttf") format("truetype"); }
 
@@ -53,13 +46,6 @@
   font-family: 'Roboto-BlackItalic';
   src: url("../fonts/Roboto-BlackItalic.ttf") format("truetype"); }
 
-/*.input-group{
-    @include cm-font('header-2');
-}*/
-/*.input-group{
-  font: normal normal 400 34px/40px 'Roboto-Regular','Roboto', Arial, Helvetica, sans-serif;
-  letter-spacing: 0em; }
-}*/
 .color-group--primary .color--50 {
   background: #D7ECF9; }
   .color-group--primary .color--50 .shade {

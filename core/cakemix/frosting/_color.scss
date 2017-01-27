@@ -458,7 +458,7 @@ $cm-palettes: (
 	$rlin: log2lin(red($c)/255);
 	$glin: log2lin(green($c)/255);
 	$blin: log2lin(blue($c)/255);
-	@return lin2log(0.2126 * $rlin + 0.7152 * $glin + 0.0722 * $blin) * '100';
+	@return lin2log(0.2126 * $rlin + 0.7152 * $glin + 0.0722 * $blin) * 100;
 }
 
 // Compares contrast of a given color to the light/dark arguments and returns whichever is most 'contrasty'
