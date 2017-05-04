@@ -1,6 +1,6 @@
 {
   "name": "cakemix",
-  "description": "A Sass mixin library for app theming and layout",
+  "description": "A Sass mixin library for app theming and layout (fixing stop)",
   "main": "core/_cakemix.scss",
   "version": "1.0.3",
   "authors": [

@@ -16,6 +16,9 @@ In the repo you'll find the following directories and files.
 Please update http://codepen.io/USIUX/pen/mPyavw?editors=0100 when changes are made to these files
 
 Everything that is below this line ________ is out of date...
+
+*Please stop reading*
+
 ***
 # Coding Standards
 > Please help make the sass code and markdown documentation _consistent, readable, and maintainable_ by conforming to these guidelines when contributing:
