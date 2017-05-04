@@ -2,6 +2,7 @@
   "name": "cakemix",
   "description": "A Sass mixin library for app theming and layout",
   "main": "core/_cakemix.scss",
+  "version": "1.0.3",
   "authors": [
     "Kenneth Moore"
   ],
@@ -11,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/gooeyideas/cakemix"
   },
-  "moduleType": [],
+  "moduleType": [ ],
   "private": false,
   "ignore": [
     "**/.*",
